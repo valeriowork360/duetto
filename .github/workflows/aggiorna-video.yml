@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: aggiorna-video
@@ -33,3 +34,9 @@ jobs:
           git add videos.json
           git diff --cached --quiet || git commit -m "Aggiorna video"
           git push
+      - name: Ripubblica il sito
+        if: success()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
