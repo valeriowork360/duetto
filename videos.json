@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T10:03:19+00:00",
+ "updated": "2026-10-30T20:46:25+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -687,6 +687,12 @@
    "id": "UCpQ34afVgk8cRQBjSJ1xuJQ",
    "videos": [
     {
+     "id": "rbUl0AyD1Dk",
+     "title": "30 DAY HOME WORKOUT CHALLENGE | FREE Full Body Workout Plan",
+     "dur": 531,
+     "date": "2026-10-30T15:30:34+00:00"
+    },
+    {
      "id": "OIpQ9jnUH1c",
      "title": "45 MIN FULL BODY STRENGTH + BALANCE WORKOUT (MadFit App Prenatal Program)",
      "dur": 2792,
@@ -715,12 +721,6 @@
      "title": "20 MIN BOOTY + CORE WORKOUT | At Home with Dumbbells (Pregnancy Friendly)",
      "dur": 1449,
      "date": "2026-09-30T16:00:02+00:00"
-    },
-    {
-     "id": "oOgOlDe6Mhk",
-     "title": "30 MIN THIRD TRIMESTER PREGNANCY WORKOUT | Full Body Exercises",
-     "dur": 1963,
-     "date": "2026-09-23T16:00:10+00:00"
     }
    ]
   },
@@ -813,6 +813,12 @@
    "id": "UCNg4RDHGls-HpbV10kWPlsw",
    "videos": [
     {
+     "id": "8fU9vdTxS-o",
+     "title": "È possibile fare una startup in 90 giorni?",
+     "dur": 1732,
+     "date": "2026-10-30T11:00:20+00:00"
+    },
+    {
      "id": "IzK6MD15TKk",
      "title": "Ho Litigato con ChatGPT",
      "dur": 1377,
@@ -841,12 +847,6 @@
      "title": "Perché caxxo guardi ancora la TV?",
      "dur": 843,
      "date": "2026-09-25T10:30:29+00:00"
-    },
-    {
-     "id": "vIpqEC_7D78",
-     "title": "Tutto quello che penso degli Agenti AI",
-     "dur": 1855,
-     "date": "2026-09-22T18:15:35+00:00"
     }
    ]
   },
@@ -854,6 +854,12 @@
    "name": "David Ondrej",
    "id": "UCPGrgwfbkjTIgPoOh2q1BAg",
    "videos": [
+    {
+     "id": "F8rc-ULd4_4",
+     "title": "High-Level Agentic Engineering with David Ondrej",
+     "dur": 5141,
+     "date": "2026-10-30T19:52:56+00:00"
+    },
     {
      "id": "RHMsAm4ODDU",
      "title": "kimi k3.1 changes everything...",
@@ -883,12 +889,6 @@
      "title": "How to build a $10B AI company (Supabase Co-Founder)",
      "dur": 3026,
      "date": "2026-10-16T05:48:42+00:00"
-    },
-    {
-     "id": "FbKXvab-0yQ",
-     "title": "Cloudroom just destroyed all AI coding apps (fully open-source)",
-     "dur": 3623,
-     "date": "2026-10-14T08:35:01+00:00"
     }
    ]
   },
@@ -1065,6 +1065,12 @@
    "id": "UC12lnsYNt8_VthTNOuOGTmQ",
    "videos": [
     {
+     "id": "-pK9xC1M7wE",
+     "title": "Tech Stocks Plunge, Here’s What’s Next",
+     "dur": 2197,
+     "date": "2026-10-30T20:13:50+00:00"
+    },
+    {
      "id": "JMaLx81fnGs",
      "title": "I Sold it all",
      "dur": 3410,
@@ -1093,12 +1099,6 @@
      "title": "The once in a lifetime ROTATION‼️",
      "dur": 2121,
      "date": "2026-10-15T23:38:51+00:00"
-    },
-    {
-     "id": "_cvBQfQQKPY",
-     "title": "All Hell is breaking loose in the market‼️",
-     "dur": 2035,
-     "date": "2026-10-14T22:29:25+00:00"
     }
    ]
   },
@@ -1401,6 +1401,12 @@
    "id": "UCBahpZUV9wGy0ZdiVL2rqCA",
    "videos": [
     {
+     "id": "hGruKYZ89qE",
+     "title": "Perché la CRISI del DEBITO USA colpisce TUTTI?",
+     "dur": 1142,
+     "date": "2026-10-30T17:00:11+00:00"
+    },
+    {
      "id": "neGQUFBZSgE",
      "title": "Come MICHAEL JACKSON ha COMPRATO i BEATLES (e battuto WALL STREET)",
      "dur": 1121,
@@ -1429,12 +1435,6 @@
      "title": "Come COCA-COLA e PEPSI hanno DISTRUTTO la concorrenza VINCENDO INSIEME",
      "dur": 1442,
      "date": "2026-10-09T16:00:28+00:00"
-    },
-    {
-     "id": "2OfUh0WQRIw",
-     "title": "Quando un'AZIENDA si AUTODISTRUGGE: il caso KODAK",
-     "dur": 1254,
-     "date": "2026-10-02T16:00:32+00:00"
     }
    ]
   },
@@ -1737,6 +1737,12 @@
    "id": "UCkkP8HpQG0LuMzGUMJzLEMw",
    "videos": [
     {
+     "id": "UiGDXIq_VPo",
+     "title": "Binance hack da 6 miliardi: Bitcoin rischia come con FTX?",
+     "dur": 1153,
+     "date": "2026-10-30T11:43:27+00:00"
+    },
+    {
      "id": "MMRTxlpANG0",
      "title": "Bitcoin e tassi Fed: la bull run è a rischio?",
      "dur": 971,
@@ -1765,12 +1771,6 @@
      "title": "Zone di domanda vs Supporti: quale metodo scegliere?",
      "dur": 1769,
      "date": "2026-10-16T16:00:20+00:00"
-    },
-    {
-     "id": "nKk-DFj0odo",
-     "title": "Bitcoin reagisce all'inflazione USA: la Fed alza ancora i tassi?",
-     "dur": 1003,
-     "date": "2026-10-14T16:00:37+00:00"
     }
    ]
   },
@@ -1778,6 +1778,12 @@
    "name": "GabrySolution",
    "id": "UC8oBIE88TrCD1b-gnVqXzgw",
    "videos": [
+    {
+     "id": "TjMf4YOtlf0",
+     "title": "Come Creare Animazioni PAZZESCHE con Claude (Prompt Gratis)",
+     "dur": 623,
+     "date": "2026-10-30T16:30:20+00:00"
+    },
     {
      "id": "LluVYuKfYvE",
      "title": "Adobe ha un rivale GRATIS. E Claude lo usa per te!",
@@ -1807,12 +1813,6 @@
      "title": "GPT-6 Astra + ChatGPT Work Cambia TUTTO (Tu Parli, Lui Lavora)",
      "dur": 772,
      "date": "2026-10-16T15:30:31+00:00"
-    },
-    {
-     "id": "8AVq92o2S7w",
-     "title": "Fallo UNA VOLTA. Ogni AI lavorerà meglio per te",
-     "dur": 894,
-     "date": "2026-10-14T17:00:24+00:00"
     }
    ]
   },
@@ -1863,6 +1863,12 @@
    "id": "UCngfIs8G9JHVTeyXPEyb_tQ",
    "videos": [
     {
+     "id": "K_nEKf9IIvc",
+     "title": "Big Tech: utili da record ma è il costo dell'AI che conta",
+     "dur": 2572,
+     "date": "2026-10-30T14:01:32+00:00"
+    },
+    {
      "id": "OIrHEocLOI4",
      "title": "Usare l'AI sul tuo Portafoglio: un Agente a tua disposizione (Scalable Capital Agentic Investing)",
      "dur": 2882,
@@ -1891,12 +1897,6 @@
      "title": "Nasdaq o S&P500: chi decide cosa c’è dentro - Lez. 11",
      "dur": 894,
      "date": "2026-10-16T11:30:07+00:00"
-    },
-    {
-     "id": "ZUXKqezwSj4",
-     "title": "Fondi comuni o ETF: il costo che non vedi - Lez 10",
-     "dur": 1138,
-     "date": "2026-10-14T11:30:10+00:00"
     }
    ]
   },
@@ -2073,6 +2073,12 @@
    "id": "UCbMlkb79E12CwveGAtdFj-A",
    "videos": [
     {
+     "id": "nFxwqU3gCB8",
+     "title": "Ho collegato Claude Code alla mia vecchia Android TV: ecco cosa è successo",
+     "dur": 714,
+     "date": "2026-10-30T14:44:25+00:00"
+    },
+    {
      "id": "1NpcvLN8t3c",
      "title": "Kimi K3.1 Pro: Cosa Succede se gli Hacker Usano Questa AI?",
      "dur": 1619,
@@ -2101,12 +2107,6 @@
      "title": "Dopo 1 ANNO Google Lancia Gemini 4 Argon: Ne È Valsa la Pena?",
      "dur": 1267,
      "date": "2026-10-14T13:08:49+00:00"
-    },
-    {
-     "id": "771nkTZhRO4",
-     "title": "Se l’AI può copiare la tua app, cosa stai vendendo?",
-     "dur": 1076,
-     "date": "2026-10-13T16:47:26+00:00"
     }
    ]
   },
@@ -2157,6 +2157,12 @@
    "id": "UCrB7UFnkosBjAhOg3a9NdWw",
    "videos": [
     {
+     "id": "F8jidmEkIeM",
+     "title": "Claude Code: Build Your First AI Agent in 20 Minutes (100% No Coding)",
+     "dur": 1201,
+     "date": "2026-10-30T13:00:10+00:00"
+    },
+    {
      "id": "JWdvTUZoN0s",
      "title": "ChatGPT Work: 10 AI Agents to Automate Your Work Right Now",
      "dur": 1411,
@@ -2185,12 +2191,6 @@
      "title": "Codex, Claude Code: Build Your AI Marketing System that Works on Any AI",
      "dur": 1014,
      "date": "2026-07-17T12:00:01+00:00"
-    },
-    {
-     "id": "aRnVwkY4BJo",
-     "title": "ChatGPT Work Just Changed How You Do Marketing",
-     "dur": 1548,
-     "date": "2026-07-09T18:45:21+00:00"
     }
    ]
   },
