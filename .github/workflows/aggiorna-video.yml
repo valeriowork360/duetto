@@ -1,0 +1,35 @@
+name: Aggiorna video
+
+on:
+  schedule:
+    - cron: "17 */8 * * *"   # ogni 8 ore
+  workflow_dispatch:          # pulsante "Run workflow" per aggiornare subito
+  push:
+    paths:
+      - config.json
+      - subscriptions.csv
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-video
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -U yt-dlp
+      - run: python scripts/update.py
+      - name: Salva videos.json
+        run: |
+          git config user.name "duetto-bot"
+          git config user.email "duetto-bot@users.noreply.github.com"
+          git add videos.json
+          git diff --cached --quiet || git commit -m "Aggiorna video"
+          git push

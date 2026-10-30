@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Duetto – Musica e video YouTube insieme sul telefono</title>
+<meta name="description" content="Ascolta musica mentre guardi un video YouTube sul telefono: due lettori insieme, ognuno con il suo volume. Perfetto per allenarti, fare mobilità o lavorare con un podcast. Gratis, senza installare nulla.">
+<link rel="canonical" href="https://valeriowork360.github.io/duetto/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Duetto">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Duetto – Musica e video YouTube insieme sul telefono">
+<meta property="og:description" content="Allenati con il tuo video preferito e ascolta la tua musica, insieme. Due lettori, due volumi, zero app da installare.">
+<meta property="og:url" content="https://valeriowork360.github.io/duetto/">
+<meta property="og:image" content="https://valeriowork360.github.io/duetto/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0f0f0f">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Duetto">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Duetto", "url": "https://valeriowork360.github.io/duetto/", "description": "Ascolta musica mentre guardi un video YouTube sul telefono: due lettori insieme, ognuno con il suo volume. Perfetto per allenarti, fare mobilità o lavorare con un podcast. Gratis, senza installare nulla.", "applicationCategory": "MultimediaApplication", "operatingSystem": "Android, iOS, Windows, macOS", "inLanguage": "it", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Posso ascoltare musica mentre guardo un video YouTube sul telefono?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Sul telefono l'app YouTube ferma la musica quando parte un altro video. Duetto mette due lettori nella stessa pagina, così video e musica suonano insieme, ognuno con il suo volume."}}, {"@type": "Question", "name": "Devo installare qualcosa?", "acceptedAnswer": {"@type": "Answer", "text": "No. Duetto funziona nel browser. Se vuoi, puoi aggiungerlo alla schermata Home e aprirlo come un'app."}}, {"@type": "Question", "name": "Funziona con lo schermo spento?", "acceptedAnswer": {"@type": "Answer", "text": "No. Con lo schermo spento il browser ferma i video. Duetto tiene lo schermo acceso mentre suona."}}, {"@type": "Question", "name": "Posso seguire i miei canali?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Nella scheda “I tuoi canali” aggiungi canali o playlist: restano salvati solo sul tuo dispositivo e i nuovi video arrivano da soli."}}, {"@type": "Question", "name": "Duetto è gratis?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, è gratuito e non serve un account."}}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<style>
+/* Layout: una colonna stile app video — barra in alto, chip dei mix, lettore principale, lettore musica */
+:root{
+  --bg:#ffffff; --surface:#f2f2f2; --surface-2:#e5e5e5; --fg:#0f0f0f; --muted:#606060;
+  --accent:#d4002b; --accent-fg:#ffffff; --line:rgba(0,0,0,.1);
+  --font:"Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0f0f0f; --surface:#212121; --surface-2:#303030; --fg:#f1f1f1; --muted:#aaaaaa;
+  --accent:#e3002d; --accent-fg:#ffffff; --line:rgba(255,255,255,.1); color-scheme:dark}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font:15px/1.4 var(--font);-webkit-tap-highlight-color:transparent;
+  padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:20}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.bar{display:flex;align-items:center;gap:10px;height:56px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:20px;letter-spacing:-.4px}
+.logo svg{width:30px;height:30px}
+.spacer{flex:1}
+.icon-btn{width:40px;height:40px;border-radius:50%;border:0;background:transparent;color:var(--fg);display:grid;place-items:center;cursor:pointer}
+.icon-btn:hover{background:var(--surface)}
+.icon-btn svg{width:24px;height:24px;fill:currentColor}
+
+.chips{display:flex;gap:10px;overflow-x:auto;padding-block:4px 12px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:0;border-radius:8px;padding:7px 12px;background:var(--surface);color:var(--fg);font:500 14px var(--font);cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:6px}
+.chip.on{background:var(--fg);color:var(--bg)}
+.chip .x{opacity:.8;font-size:16px;line-height:1}
+
+.deck{display:flex;flex-direction:column;gap:10px;padding-block:6px 18px}
+.deck + .deck{border-top:1px solid var(--line);padding-top:18px}
+.label{display:flex;align-items:center;gap:8px;font:500 12px var(--font);letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.playing .dot{background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 25%,transparent)}
+.screen{position:relative;width:100%;max-width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000}
+.screen.music{aspect-ratio:auto;height:200px}
+.screen iframe,.screen>div:not(.minibar){position:absolute;inset:0;width:100%;height:100%;border:0}
+.empty{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#aaa;padding:16px;font-size:14px;background:#181818}
+.empty b{display:block;color:#fff;font-size:16px;margin-bottom:4px}
+
+.row{display:flex;gap:8px;align-items:center}
+.field{flex:1;min-width:0;height:40px;border-radius:20px;border:1px solid var(--line);background:var(--surface);color:var(--fg);padding:0 16px;font:15px var(--font)}
+.field:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.pill{height:40px;border-radius:20px;border:0;padding:0 16px;font:500 14px var(--font);cursor:pointer;background:var(--surface-2);color:var(--fg);flex:none}
+.pill.red{background:var(--accent);color:var(--accent-fg)}
+.pill:focus-visible,.chip:focus-visible,.icon-btn:focus-visible,.round:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.ctrl{display:flex;align-items:center;gap:12px}
+.round{width:44px;height:44px;border-radius:50%;border:0;background:var(--fg);color:var(--bg);display:grid;place-items:center;cursor:pointer;flex:none}
+.round svg{width:22px;height:22px;fill:currentColor}
+.round.ghost{background:var(--surface);color:var(--fg);width:40px;height:40px}
+.round.ghost.on{background:var(--accent);color:var(--accent-fg)}
+.vol{flex:1;min-width:0;display:flex;align-items:center;gap:10px;color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px}
+.vol svg{width:20px;height:20px;fill:currentColor;flex:none}
+input[type=range]{flex:1;min-width:0;accent-color:var(--accent);height:28px}
+.vol output{width:34px;text-align:right}
+
+.master{position:sticky;bottom:0;z-index:9;background:var(--bg);border-top:1px solid var(--line);padding-block:10px calc(10px + env(safe-area-inset-bottom,0px))}
+.master .wrap{display:flex;gap:10px;align-items:center}
+.master .pill{flex:1}
+.hint{color:var(--muted);font-size:13px;padding-block:8px}
+.warn{background:color-mix(in srgb,var(--accent) 15%,var(--bg));border-radius:12px;padding:12px 14px;font-size:14px;margin-block:8px}
+.toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:8px;font-size:14px;z-index:30;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:1}
+
+
+
+/* Link recenti */
+.hist{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-block:2px}
+.hist::-webkit-scrollbar{display:none}
+.hitem{flex:none;display:flex;align-items:center;background:var(--surface);border-radius:10px;max-width:240px}
+.hgo{display:flex;align-items:center;gap:8px;min-width:0;border:0;background:transparent;color:var(--fg);font:500 13px var(--font);padding:6px 4px 6px 6px;cursor:pointer;text-align:left}
+.hgo img,.hgo .ph{width:48px;height:27px;border-radius:5px;object-fit:cover;flex:none;background:var(--surface-2)}
+.hgo .ph{display:grid;place-items:center;font-size:11px;color:var(--muted)}
+.hgo span.t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:140px}
+.hitem.now{outline:2px solid var(--accent);outline-offset:-2px}
+.hdel{flex:none;width:32px;height:32px;border:0;background:transparent;color:var(--muted);font-size:18px;cursor:pointer;border-radius:50%}
+.hdel:hover{color:var(--fg);background:var(--surface-2)}
+.hgo:focus-visible,.hdel:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+.logo{margin:0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* Pagina informativa (leggibile da Google) */
+.about{border-top:1px solid var(--line);padding-block:24px 16px;display:flex;flex-direction:column;gap:14px}
+.about>p,.faq{max-width:65ch}
+.about h2{margin:0;font:700 20px/1.25 var(--font);text-wrap:balance}
+.about h3{margin:0;font:500 16px var(--font)}
+.about p{margin:0;color:var(--muted);line-height:1.55}
+.uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.uses li{background:var(--surface);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.faq{display:flex;flex-direction:column;gap:8px}
+.faq details{background:var(--surface);border-radius:12px;padding:12px 16px}
+.faq summary{cursor:pointer;font-weight:500}
+.faq details p{margin-top:8px}
+footer{color:var(--muted);font-size:12px;padding-block:8px 16px}
+
+/* Libreria */
+.lib{display:flex;flex-direction:column;gap:12px;padding-block:18px 8px;border-top:1px solid var(--line)}
+.lib-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.lib-head h2{margin:0;font:700 18px var(--font)}
+.lib-head small{color:var(--muted);font-size:12px}
+.tabs{display:flex;gap:4px;background:var(--surface);border-radius:20px;padding:4px;align-self:flex-start;max-width:100%}
+.tab{border:0;background:transparent;color:var(--fg);font:500 14px var(--font);padding:7px 14px;border-radius:16px;cursor:pointer;white-space:nowrap}
+.tab.on{background:var(--fg);color:var(--bg)}
+.tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.lib-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--fg);font:500 13px var(--font);padding:6px 12px;cursor:pointer}
+.seg button.on{background:var(--accent);color:var(--accent-fg)}
+.lib .chips{padding-block:0}
+.vlist{display:flex;flex-direction:column;gap:4px;margin:0;padding:0;list-style:none}
+.vitem{display:flex;gap:12px;align-items:flex-start;padding:6px;margin-inline:-6px;border-radius:12px;cursor:pointer;border:0;background:transparent;color:var(--fg);text-align:left;font:inherit;width:calc(100% + 12px)}
+.vitem:hover{background:var(--surface)}
+.vitem:focus-visible{outline:2px solid var(--accent)}
+.vitem.now{background:color-mix(in srgb,var(--accent) 12%,var(--bg))}
+.thumb{position:relative;flex:none;width:168px;max-width:44%;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:var(--surface-2)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.dur{position:absolute;right:4px;bottom:4px;background:rgba(0,0,0,.8);color:#fff;font:500 12px var(--font);padding:2px 6px;border-radius:4px;font-variant-numeric:tabular-nums}
+.vmeta{min-width:0;flex:1;display:flex;flex-direction:column;gap:4px;padding-top:2px}
+.vtitle{font:500 14px/1.3 var(--font);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vsub{color:var(--muted);font-size:12px}
+.lib-empty{color:var(--muted);font-size:14px;background:var(--surface);border-radius:12px;padding:16px}
+.more{align-self:center}
+
+/* Schermo intero e video a tutta larghezza */
+.fs-btn{position:absolute;right:10px;bottom:10px;z-index:3;width:40px;height:40px;border-radius:50%;border:0;background:rgba(0,0,0,.6);color:#fff;display:grid;place-items:center;cursor:pointer}
+.fs-btn svg{width:24px;height:24px;fill:currentColor}
+.fs-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.minibar{display:none}
+#deckV .screen.fs,#deckV .screen.fake{border-radius:0;aspect-ratio:auto;margin:0;width:100%;height:100%}
+#deckV .screen.fake{width:100vw;height:100vh;height:100dvh}
+.screen.fs .minibar{display:flex;position:absolute;left:calc(12px + env(safe-area-inset-left,0px));top:calc(12px + env(safe-area-inset-top,0px));z-index:3;align-items:center;gap:10px;background:rgba(0,0,0,.6);color:#fff;border-radius:22px;padding:6px 14px 6px 6px;transition:opacity .3s}
+.screen.fs .minibar.dim{opacity:0;pointer-events:none}
+.minibar button{width:32px;height:32px;border-radius:50%;border:0;background:#fff;color:#000;display:grid;place-items:center;cursor:pointer}
+.minibar button svg{width:18px;height:18px;fill:currentColor}
+.minibar input{width:120px;flex:none}
+.minibar span{font-size:12px;opacity:.85}
+.screen.fs .fs-btn{right:calc(12px + env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px))}
+/* finto schermo intero (iPhone e browser senza Fullscreen API) */
+.screen.fake{position:fixed!important;inset:0;width:100vw;height:100vh;height:100dvh;max-width:none;z-index:100}
+body.nofs{overflow:hidden}
+@media (max-width:600px){
+  #deckV .screen{margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));width:auto;max-width:none;border-radius:0}
+}
+@media (orientation:landscape) and (max-height:500px){
+  #deckV .screen:not(.fs):not(.fake){aspect-ratio:auto;height:calc(100vh - 70px);height:calc(100dvh - 70px)}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="bar">
+      <h1 class="logo">
+        <svg viewBox="0 0 512 512" aria-hidden="true"><rect width="512" height="512" rx="112" fill="var(--fg)"/><path d="M150 140l170 116-170 116z" fill="var(--accent)"/><path d="M250 170l150 86-150 86z" fill="var(--bg)" opacity=".9"/></svg>
+        Duetto<span class="sr"> – musica e video YouTube insieme sul telefono</span>
+      </h1>
+      <div class="spacer"></div>
+      <a class="icon-btn" href="https://m.youtube.com" target="_blank" rel="noopener" title="Cerca video su YouTube" aria-label="Cerca video su YouTube">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.8l-.3-.3A6.5 6.5 0 1 0 9.5 16a6.5 6.5 0 0 0 4.2-1.6l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
+      </a>
+    </div>
+    <div class="chips" id="chips" role="list"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="fileWarn" class="warn" hidden>Stai aprendo la pagina come file: YouTube blocca i video in questo caso. Pubblicala su un sito (es. Netlify) e aprila da lì.</div>
+
+  <section class="deck" id="deckV">
+    <div class="label"><span class="dot"></span>Video o podcast</div>
+    <div class="screen" id="scrV"><div id="pV"></div><div class="empty" id="eV"><div><b>Incolla un link YouTube</b>Allenamento, podcast, lezione…</div></div>
+      <div class="minibar" id="mini"><button type="button" id="miniPlay" aria-label="Play musica"></button><span>Musica</span><input type="range" id="miniVol" min="0" max="100" value="35" aria-label="Volume musica"></div>
+      <button class="fs-btn" id="fsBtn" type="button" aria-label="Schermo intero" title="Schermo intero"></button></div>
+    <form class="row" id="fV">
+      <input class="field" id="inV" type="url" inputmode="url" placeholder="Link del video" autocomplete="off">
+      <button class="pill" type="button" data-paste="inV">Incolla</button>
+      <button class="pill red" type="submit">Carica</button>
+    </form>
+    <div class="hist" id="hV" aria-label="Link recenti" hidden></div>
+    <div class="ctrl">
+      <button class="round" id="btnV" aria-label="Play video"></button>
+      <div class="vol"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4z"/></svg>
+        <input type="range" id="volV" min="0" max="100" value="100" aria-label="Volume video"><output id="oV">100</output></div>
+    </div>
+  </section>
+
+  <section class="deck" id="deckM">
+    <div class="label"><span class="dot"></span>Musica di sottofondo</div>
+    <div class="screen music"><div id="pM"></div><div class="empty" id="eM"><div><b>Incolla musica o una playlist</b>Va bene anche un link con &list=</div></div></div>
+    <form class="row" id="fM">
+      <input class="field" id="inM" type="url" inputmode="url" placeholder="Link della musica" autocomplete="off">
+      <button class="pill" type="button" data-paste="inM">Incolla</button>
+      <button class="pill red" type="submit">Carica</button>
+    </form>
+    <div class="hist" id="hM" aria-label="Link recenti" hidden></div>
+    <div class="ctrl">
+      <button class="round" id="btnM" aria-label="Play musica"></button>
+      <div class="vol"><svg viewBox="0 0 24 24"><path d="M12 3v10.6A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
+        <input type="range" id="volM" min="0" max="100" value="35" aria-label="Volume musica"><output id="oM">35</output></div>
+      <button class="round ghost on" id="loopM" aria-label="Ripeti musica" title="Ripeti"><svg viewBox="0 0 24 24"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg></button>
+    </div>
+    <p class="hint">Tieni lo schermo acceso: con lo schermo spento il browser ferma i video.</p>
+  </section>
+  <section class="lib" id="lib" aria-label="Libreria video">
+    <div class="lib-head"><h2>Libreria</h2><small id="libUpd"></small></div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" role="tab" id="tabPub" aria-selected="true">Consigliati</button>
+      <button class="tab" role="tab" id="tabMine" aria-selected="false">I tuoi canali</button>
+    </div>
+    <form class="row" id="addForm" hidden>
+      <input class="field" id="addIn" type="text" inputmode="url" placeholder="@nome, link canale o playlist (anche tanti insieme)" autocomplete="off" aria-label="Aggiungi canale o playlist">
+      <button class="pill red" type="submit" id="addBtn">Aggiungi</button>
+    </form>
+    <div class="chips" id="libChips"></div>
+    <div class="lib-tools">Tocca un video per caricarlo in
+      <span class="seg" role="group" aria-label="Lettore di destinazione"><button type="button" class="on" data-target="V">Video</button><button type="button" data-target="M">Musica</button></span>
+      <button class="pill" type="button" id="playAllList" hidden>Riproduci tutta la playlist</button>
+    </div>
+    <ul class="vlist" id="vlist"></ul>
+    <button class="pill more" type="button" id="more" hidden>Mostra altri</button>
+  </section>
+  <section class="about" aria-labelledby="about-t">
+    <h2 id="about-t">Musica di sottofondo con i video YouTube, anche sul telefono</h2>
+    <p>Sul computer puoi aprire due video YouTube e sentirli insieme. Sul telefono no: appena parte un video, l'altro si ferma. Duetto risolve il problema mettendo due lettori nella stessa pagina, ognuno con il suo volume.</p>
+    <ul class="uses">
+      <li><h3>Allenamento</h3><p>Segui la lezione di mobilità, yoga o HIIT e ascolta la tua playlist motivante al volume che preferisci.</p></li>
+      <li><h3>Lavoro e studio</h3><p>Un podcast o una lezione in primo piano, musica lo-fi o rumore bianco in sottofondo.</p></li>
+      <li><h3>I tuoi preferiti</h3><p>Salva i mix, ritrova i link recenti e segui i tuoi canali: i nuovi video arrivano da soli.</p></li>
+    </ul>
+    <h2>Domande frequenti</h2>
+    <div class="faq">
+      <details><summary>Posso ascoltare musica mentre guardo un video YouTube sul telefono?</summary><p>Sì. Sul telefono l'app YouTube ferma la musica quando parte un altro video. Duetto mette due lettori nella stessa pagina, così video e musica suonano insieme, ognuno con il suo volume.</p></details>
+      <details><summary>Devo installare qualcosa?</summary><p>No. Duetto funziona nel browser. Se vuoi, puoi aggiungerlo alla schermata Home e aprirlo come un'app.</p></details>
+      <details><summary>Funziona con lo schermo spento?</summary><p>No. Con lo schermo spento il browser ferma i video. Duetto tiene lo schermo acceso mentre suona.</p></details>
+      <details><summary>Posso seguire i miei canali?</summary><p>Sì. Nella scheda “I tuoi canali” aggiungi canali o playlist: restano salvati solo sul tuo dispositivo e i nuovi video arrivano da soli.</p></details>
+      <details><summary>Duetto è gratis?</summary><p>Sì, è gratuito e non serve un account.</p></details>
+    </div>
+  </section>
+  <footer>Duetto non è affiliato a YouTube né a Google. I video sono riprodotti con il lettore ufficiale di YouTube.</footer>
+</main>
+
+<div class="master">
+  <div class="wrap">
+    <button class="pill red" id="playAll">Avvia entrambi</button>
+    <button class="pill" id="saveMix">Salva mix</button>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const ICON_PLAY='<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+const ICON_PAUSE='<svg viewBox="0 0 24 24"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>';
+const $=id=>document.getElementById(id);
+const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+if(location.protocol==='file:') $('fileWarn').hidden=false;
+
+function toast(t){const el=$('toast');el.textContent=t;el.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove('show'),1800)}
+
+function parseYT(s){
+  s=(s||'').trim(); if(!s) return null;
+  if(/^[\w-]{11}$/.test(s)) return {id:s,list:null};
+  try{
+    const u=new URL(/^https?:/i.test(s)?s:'https://'+s);
+    const list=u.searchParams.get('list'); let id=u.searchParams.get('v');
+    if(u.hostname.includes('youtu.be')) id=u.pathname.slice(1).split('/')[0];
+    const m=u.pathname.match(/^\/(shorts|live|embed)\/([\w-]{11})/); if(m) id=m[2];
+    if(id&&!/^[\w-]{11}$/.test(id)) id=null;
+    return (id||list)?{id,list}:null;
+  }catch(e){return null}
+}
+
+const decks={
+  V:{player:null,ready:false,src:null,shown:null,vol:100,playing:false,loop:false,want:false},
+  M:{player:null,ready:false,src:null,shown:null,vol:35,playing:false,loop:true,want:false}
+};
+const key=src=>src?(src.list||'')+'|'+(src.id||''):'';
+const apiOk=()=>!!(window.YT&&YT.Player);
+
+var setBtn=function(k){const d=decks[k];const on=d.playing||(d.want&&!d.ready);
+  $('btn'+k).innerHTML=on?ICON_PAUSE:ICON_PLAY;$('deck'+k).classList.toggle('playing',d.playing);
+  const any=decks.V.playing||decks.M.playing;$('playAll').textContent=any?'Pausa entrambi':'Avvia entrambi';wake(any)}
+setBtn('V');setBtn('M');
+
+/* Crea il lettore solo quando c'è un link: parte più veloce */
+function ensurePlayer(k){
+  const d=decks[k]; if(d.player||!d.src||!apiOk()) return;
+  const src=d.src, pv={playsinline:1,rel:0,modestbranding:1};
+  if(src.list){pv.listType='playlist';pv.list=src.list}
+  d.shown=key(src);
+  d.player=new YT.Player('p'+k,{width:'100%',height:'100%',videoId:src.list?undefined:src.id,playerVars:pv,
+    events:{
+      onReady:()=>{d.ready=true;d.player.setVolume(d.vol);
+        if(d.shown!==key(d.src)) cue(k,d.src);
+        if(d.want) d.player.playVideo()},
+      onStateChange:e=>{if(e.data===YT.PlayerState.PLAYING||e.data===YT.PlayerState.CUED)nameHist(k);
+        if(e.data===YT.PlayerState.ENDED&&d.loop){
+          if(d.src&&d.src.list){d.player.playVideoAt(0)}else{d.player.seekTo(0);d.player.playVideo()}
+          return}
+        d.playing=(e.data===YT.PlayerState.PLAYING||e.data===YT.PlayerState.BUFFERING);
+        if(e.data===YT.PlayerState.PLAYING) d.want=false;
+        setBtn(k)},
+      onError:e=>{d.want=false;setBtn(k);
+        toast(e.data===101||e.data===150?'Questo video non si può riprodurre fuori da YouTube: provane un altro':'Video non disponibile: controlla il link')}
+    }});
+}
+window.onYouTubeIframeAPIReady=()=>{ensurePlayer('V');ensurePlayer('M')};
+
+function cue(k,src){
+  const d=decks[k]; d.src=src; $('e'+k).hidden=true;
+  if(!d.player){ensurePlayer(k);return}
+  if(!d.ready) return;               // onReady caricherà il link giusto
+  d.shown=key(src);
+  if(src.list) d.player.cuePlaylist({list:src.list,listType:'playlist',index:0});
+  else d.player.cueVideoById(src.id);
+  d.player.setVolume(d.vol);
+}
+function load(k,str){
+  const src=parseYT(str);
+  if(!src){toast('Link non valido: copia il link da YouTube');return false}
+  cue(k,src);store.set('last'+k,str);addHist(k,str,src);return true;
+}
+/* Se il lettore non è pronto, il Play resta in attesa e parte da solo */
+function play(k){const d=decks[k];if(!d.src) return false;
+  if(d.ready){d.player.playVideo()}else{d.want=true;ensurePlayer(k);setBtn(k);toast('Sto caricando il lettore…')}
+  return true}
+function pause(k){const d=decks[k];d.want=false;if(d.ready)d.player.pauseVideo();setBtn(k)}
+
+['V','M'].forEach(k=>{
+  $('f'+k).addEventListener('submit',e=>{e.preventDefault();if(load(k,$('in'+k).value)) $('in'+k).blur()});
+  $('btn'+k).addEventListener('click',()=>{const d=decks[k];
+    if(!d.src){toast('Prima incolla un link e premi Carica');return}
+    (d.playing||d.want)?pause(k):play(k)});
+  $('vol'+k).addEventListener('input',e=>{const v=+e.target.value;decks[k].vol=v;$('o'+k).textContent=v;if(decks[k].ready)decks[k].player.setVolume(v)});
+});
+$('loopM').addEventListener('click',()=>{decks.M.loop=!decks.M.loop;$('loopM').classList.toggle('on',decks.M.loop)});
+
+document.querySelectorAll('[data-paste]').forEach(b=>b.addEventListener('click',async()=>{
+  const inp=$(b.dataset.paste);
+  try{const t=await navigator.clipboard.readText();if(t){inp.value=t;inp.form.requestSubmit();return}}catch(e){}
+  inp.focus();toast('Tieni premuto nel campo e scegli Incolla');
+}));
+
+$('playAll').addEventListener('click',()=>{
+  if(!decks.V.src&&!decks.M.src){toast('Carica almeno un link');return}
+  const any=decks.V.playing||decks.M.playing||decks.V.want||decks.M.want;
+  ['V','M'].forEach(k=>{if(decks[k].src) any?pause(k):play(k)});
+});
+
+/* Se YouTube tarda a rispondere, riprova a caricarlo */
+function loadApi(){const sc=document.createElement('script');sc.src='https://www.youtube.com/iframe_api';sc.async=true;document.head.appendChild(sc)}
+loadApi();
+setTimeout(()=>{if(!apiOk()){loadApi();setTimeout(()=>{if(!apiOk())toast('YouTube non risponde: controlla la connessione e ricarica la pagina')},8000)}},8000);
+
+
+/* ---- Schermo intero ---- */
+const ICON_FS='<svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>';
+const ICON_FS_OFF='<svg viewBox="0 0 24 24"><path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/></svg>';
+const scr=$('scrV'),fsBtn=$('fsBtn');
+const fsEl=()=>document.fullscreenElement||document.webkitFullscreenElement;
+const isFs=()=>scr.classList.contains('fs');
+function fsUi(on){scr.classList.toggle('fs',on);fsBtn.innerHTML=on?ICON_FS_OFF:ICON_FS;fsBtn.setAttribute('aria-label',on?'Esci da schermo intero':'Schermo intero');syncMini();if(on)poke()}
+async function enterFs(){
+  try{
+    if(scr.requestFullscreen) await scr.requestFullscreen({navigationUI:'hide'});
+    else if(scr.webkitRequestFullscreen) scr.webkitRequestFullscreen();
+    else throw 0;
+    try{await screen.orientation.lock('landscape')}catch(e){}
+  }catch(e){scr.classList.add('fake');document.body.classList.add('nofs');fsUi(true)}
+}
+async function exitFs(){
+  if(scr.classList.contains('fake')){scr.classList.remove('fake');document.body.classList.remove('nofs');fsUi(false);return}
+  try{screen.orientation.unlock()}catch(e){}
+  try{(document.exitFullscreen||document.webkitExitFullscreen).call(document)}catch(e){}
+}
+fsBtn.addEventListener('click',()=>isFs()?exitFs():enterFs());
+['fullscreenchange','webkitfullscreenchange'].forEach(ev=>document.addEventListener(ev,()=>{if(!scr.classList.contains('fake'))fsUi(fsEl()===scr)}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&scr.classList.contains('fake'))exitFs()});
+fsUi(false);
+
+/* mini-barra musica: sparisce dopo 3 s, ricompare toccando lo schermo */
+let dimT;
+function poke(){const m=$('mini');m.classList.remove('dim');clearTimeout(dimT);dimT=setTimeout(()=>{if(isFs())m.classList.add('dim')},3000)}
+scr.addEventListener('pointerdown',()=>{if(isFs())poke()});
+function syncMini(){const d=decks.M;$('miniPlay').innerHTML=(d.playing||d.want)?ICON_PAUSE:ICON_PLAY;$('miniVol').value=d.vol}
+$('miniPlay').addEventListener('click',()=>{poke();const d=decks.M;if(!d.src){toast('Carica prima la musica');return}(d.playing||d.want)?pause('M'):play('M');setTimeout(syncMini,50)});
+$('miniVol').addEventListener('input',e=>{poke();$('volM').value=e.target.value;$('volM').dispatchEvent(new Event('input'))});
+const _setBtn=setBtn;setBtn=function(k){_setBtn(k);if(k==='M'&&window.syncMini)syncMini()};
+
+/* ---- Link recenti: ogni link caricato resta salvato, con × per cancellarlo ---- */
+const HMAX=20;
+const hist={V:store.get('histV',[]),M:store.get('histM',[])};
+function addHist(k,url,src){
+  const kk=key(src),old=hist[k].find(h=>h.key===kk);
+  hist[k]=hist[k].filter(h=>h.key!==kk);
+  hist[k].unshift({key:kk,url,id:src.id,list:src.list,title:old?old.title:''});
+  hist[k]=hist[k].slice(0,HMAX);store.set('hist'+k,hist[k]);renderHist(k);
+}
+function nameHist(k){
+  const d=decks[k];let t='';try{t=d.player.getVideoData().title}catch(e){}
+  if(!t||!d.src)return;const kk=key(d.src),h=hist[k].find(x=>x.key===kk);
+  if(h&&h.title!==t){h.title=t;store.set('hist'+k,hist[k]);renderHist(k)}
+}
+function renderHist(k){
+  const box=$('h'+k);box.innerHTML='';box.hidden=!hist[k].length;
+  const cur=key(decks[k].src);
+  hist[k].forEach(h=>{
+    const it=document.createElement('div');it.className='hitem'+(h.key===cur?' now':'');
+    const go=document.createElement('button');go.type='button';go.className='hgo';
+    go.innerHTML=h.id?`<img alt="" loading="lazy" src="https://i.ytimg.com/vi/${h.id}/default.jpg">`:'<span class="ph">Playlist</span>';
+    const t=document.createElement('span');t.className='t';t.textContent=h.title||(h.list?'Playlist':'Video '+h.id);go.appendChild(t);
+    go.title=h.title||h.url;
+    go.onclick=()=>{$('in'+k).value=h.url;if(load(k,h.url))setTimeout(()=>play(k),300)};
+    const del=document.createElement('button');del.type='button';del.className='hdel';del.textContent='×';
+    del.setAttribute('aria-label','Cancella '+(h.title||'questo link'));
+    del.onclick=()=>{hist[k]=hist[k].filter(x=>x.key!==h.key);store.set('hist'+k,hist[k]);renderHist(k);toast('Link cancellato')};
+    it.append(go,del);box.appendChild(it)});
+}
+renderHist('V');renderHist('M');
+
+/* ---- Libreria ----
+   Consigliati: videos.json, uguale per tutti, aggiornato da GitHub ogni 8 ore.
+   I tuoi canali: salvati solo su questo dispositivo, letti tramite il ponte Cloudflare. */
+const WORKER_URL='';   // es. 'https://duetto.tuonome.workers.dev' — da inserire dopo aver creato il Worker
+const REFRESH_MS=60*60*1000;
+const lib={pub:null,tab:'pub',src:'all',target:'V',shown:24,mine:store.get('mySrc',[]),cache:store.get('myCache',{}),busy:new Set()};
+
+function fmtDur(s){if(!s)return'';const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=String(s%60).padStart(2,'0');return h?`${h}:${String(m).padStart(2,'0')}:${x}`:`${m}:${x}`}
+function ago(iso){if(!iso)return'';const d=(Date.now()-new Date(iso))/1000;
+  if(d<3600)return Math.max(1,Math.round(d/60))+' min fa';if(d<86400){const h=Math.floor(d/3600);return h===1?'1 ora fa':h+' ore fa'}
+  const g=Math.round(d/86400);return g===1?'1 giorno fa':g<30?g+' giorni fa':Math.round(g/30)+' mesi fa'}
+
+/* Fonti della scheda attiva, nello stesso formato: {key,kind,name,id,videos} */
+function sources(){
+  if(lib.tab==='pub'){const d=lib.pub;if(!d)return[];
+    return [...(d.playlists||[]).map(p=>({key:'p:'+p.id,kind:'playlist',name:p.title,id:p.id,videos:p.videos})),
+            ...(d.channels||[]).map(c=>({key:'c:'+c.id,kind:'channel',name:c.name,id:c.id,videos:c.videos}))]}
+  return lib.mine.map(m=>{const c=lib.cache[m.u];const r=c&&c.data;
+    return {key:m.u,kind:r?r.type:'channel',name:(r&&r.title)||m.label||m.u,id:r&&r.id,videos:r?r.videos:[],loading:lib.busy.has(m.u),error:c&&c.error}})}
+function items(srcs){
+  if(lib.src!=='all'){const s=srcs.find(x=>x.key===lib.src);return s?s.videos.map(v=>({...v,sub:s.name})):[]}
+  // "Novità": video dei canali dal più recente; le playlist si aprono dal loro chip
+  return srcs.filter(s=>s.kind==='channel').flatMap(s=>s.videos.map(v=>({...v,sub:s.name})))
+    .sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+}
+function emptyMsg(t){return `<li class="lib-empty">${t}</li>`}
+function renderLib(){
+  const list=$('vlist'),mine=lib.tab==='mine';list.innerHTML='';
+  $('tabPub').classList.toggle('on',!mine);$('tabMine').classList.toggle('on',mine);
+  $('tabPub').setAttribute('aria-selected',!mine);$('tabMine').setAttribute('aria-selected',mine);
+  $('addForm').hidden=!mine;
+  const srcs=sources();
+  if(lib.src!=='all'&&!srcs.some(s=>s.key===lib.src)) lib.src='all';
+  if(lib.src==='all'&&!srcs.some(s=>s.kind==='channel')&&srcs.length) lib.src=srcs[0].key;
+  // chip delle fonti (nei tuoi canali con × per cancellare)
+  const ch=$('libChips');ch.innerHTML='';ch.hidden=!srcs.length;
+  const mk=(key,label,del)=>{const b=document.createElement('button');b.type='button';b.className='chip'+(lib.src===key?' on':'');
+    const t=document.createElement('span');t.textContent=label;b.appendChild(t);
+    if(del){const x=document.createElement('span');x.className='x';x.textContent='×';x.setAttribute('aria-label','Rimuovi '+label);b.appendChild(x)}
+    b.onclick=e=>{if(del&&e.target.classList.contains('x')){removeMine(key);return}lib.src=key;lib.shown=24;renderLib()};ch.appendChild(b)};
+  if(srcs.some(s=>s.kind==='channel')) mk('all','Novità',false);
+  srcs.forEach(s=>mk(s.key,(s.kind==='playlist'?'▶ ':'')+s.name+(s.loading?' …':s.error?' ⚠':''),mine));
+  const sel=srcs.find(s=>s.key===lib.src);
+  $('playAllList').hidden=!(sel&&sel.kind==='playlist'&&sel.id);
+  if(mine&&!WORKER_URL&&lib.mine.length){list.innerHTML=emptyMsg(`Hai ${lib.mine.length} canali salvati. I loro video compariranno appena questa funzione sarà attiva.`);$('more').hidden=true;return}
+  if(!mine&&!lib.pub){list.innerHTML=emptyMsg('Libreria non disponibile al momento. Riprova più tardi.');$('more').hidden=true;return}
+  if(mine&&!lib.mine.length){list.innerHTML=emptyMsg('Aggiungi un canale o una playlist che segui: incolla il link o scrivi @nome. Restano salvati solo su questo dispositivo e i nuovi video arrivano da soli.');$('more').hidden=true;return}
+  if(sel&&sel.error){list.innerHTML=emptyMsg('Non riesco a leggere questa fonte: '+sel.error);$('more').hidden=true;return}
+  const all=items(srcs);
+  if(!all.length){list.innerHTML=emptyMsg(srcs.some(s=>s.loading)?'Carico i video…':'Nessun video da mostrare.');$('more').hidden=true;return}
+  const cur=decks[lib.target].src;
+  all.slice(0,lib.shown).forEach(v=>{
+    const li=document.createElement('li');const b=document.createElement('button');b.type='button';
+    b.className='vitem'+(cur&&cur.id===v.id?' now':'');
+    b.innerHTML=`<span class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg">${v.dur?`<span class="dur">${fmtDur(v.dur)}</span>`:''}</span><span class="vmeta"><span class="vtitle"></span><span class="vsub"></span></span>`;
+    b.querySelector('.vtitle').textContent=v.title;
+    b.querySelector('.vsub').textContent=[v.sub,ago(v.date)].filter(Boolean).join(' · ');
+    b.onclick=()=>pick(v);li.appendChild(b);list.appendChild(li)});
+  $('more').hidden=all.length<=lib.shown;
+}
+function pick(v){
+  const k=lib.target,url='https://www.youtube.com/watch?v='+v.id;
+  $('in'+k).value=url;load(k,url);
+  {const h=hist[k][0];if(h&&!h.title){h.title=v.title;store.set('hist'+k,hist[k]);renderHist(k)}}
+  $('deck'+k).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+  setTimeout(()=>play(k),300);renderLib();
+}
+
+/* I tuoi canali */
+async function fetchMine(u,force){
+  const c=lib.cache[u];if(!WORKER_URL||lib.busy.has(u))return;
+  if(!force&&c&&c.data&&Date.now()-c.t<REFRESH_MS)return;
+  lib.busy.add(u);renderLib();
+  try{const r=await fetch(WORKER_URL.replace(/\/$/,'')+'/?u='+encodeURIComponent(u));const j=await r.json();
+    if(!r.ok||j.error)throw new Error(j.error||'errore');
+    lib.cache[u]={t:Date.now(),data:j};
+  }catch(e){lib.cache[u]={...(c||{}),t:(c&&c.t)||0,error:c&&c.data?null:(e.message||'connessione assente')}}
+  lib.busy.delete(u);store.set('myCache',lib.cache);renderLib();
+}
+function refreshMine(){lib.mine.forEach(m=>fetchMine(m.u))}
+/* Accetta un link o tanti insieme (separati da spazi, virgole o a capo): @nome, ID canale, link canale o playlist */
+function parseMany(txt){
+  const out=[];const re=/https?:\/\/\S+|(?:www\.|m\.)?youtu\S+|@[\w.\-]{3,}|UC[\w-]{22}|PL[\w-]{10,}/g;let m;
+  while((m=re.exec(txt))) out.push(m[0].replace(/[),.;]+$/,''));
+  return [...new Set(out)];
+}
+async function addMany(list){
+  let ok=0,bad=[];const fresh=list.filter(u=>!lib.mine.some(m=>m.u.toLowerCase()===u.toLowerCase()));
+  fresh.forEach(u=>lib.mine.push({u}));store.set('mySrc',lib.mine);
+  if(fresh.length) lib.src=fresh.length===1?fresh[0]:'all';
+  renderLib();
+  if(!WORKER_URL){toast(fresh.length+' salvati: i video arriveranno quando la funzione sarà attiva');return}
+  const queue=[...fresh];
+  await Promise.all(Array.from({length:4},async()=>{while(queue.length){const u=queue.shift();await fetchMine(u,true);
+    const c=lib.cache[u];if(c&&c.error)bad.push(u);else ok++}}));
+  if(bad.length){lib.mine=lib.mine.filter(m=>!bad.includes(m.u));bad.forEach(u=>delete lib.cache[u]);
+    store.set('mySrc',lib.mine);store.set('myCache',lib.cache);renderLib()}
+  toast(fresh.length===1&&!bad.length?'Aggiunto: '+(lib.cache[fresh[0]].data.title||fresh[0])
+       :`Aggiunti ${ok}`+(bad.length?`, non trovati ${bad.length}: ${bad.slice(0,3).join(', ')}`:'')+(list.length>fresh.length?` (già presenti ${list.length-fresh.length})`:''));
+}
+$('addForm').addEventListener('submit',e=>{e.preventDefault();
+  const list=parseMany($('addIn').value);
+  if(!list.length){toast('Incolla il link di un canale o di una playlist YouTube, o scrivi @nome');return}
+  $('addIn').value='';addMany(list);
+});
+function removeMine(u){lib.mine=lib.mine.filter(m=>m.u!==u);delete lib.cache[u];store.set('mySrc',lib.mine);store.set('myCache',lib.cache);
+  if(lib.src===u)lib.src='all';renderLib();toast('Rimosso')}
+
+function defaultSrc(){const x=sources();return x.length&&x[0].kind==='playlist'?x[0].key:'all'}
+$('tabPub').onclick=()=>{lib.tab='pub';lib.src=defaultSrc();lib.shown=24;renderLib()};
+$('tabMine').onclick=()=>{lib.tab='mine';lib.src='all';lib.shown=24;renderLib();refreshMine()};
+$('more').onclick=()=>{lib.shown+=24;renderLib()};
+document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{lib.target=b.dataset.target;
+  document.querySelectorAll('.seg button').forEach(x=>x.classList.toggle('on',x===b));renderLib()});
+$('playAllList').onclick=()=>{const s=sources().find(x=>x.key===lib.src);if(!s||!s.id)return;
+  const url='https://www.youtube.com/playlist?list='+s.id,k=lib.target;
+  $('in'+k).value=url;load(k,url);{const h=hist[k][0];if(h&&!h.title){h.title=s.name;store.set('hist'+k,hist[k]);renderHist(k)}}
+  $('deck'+k).scrollIntoView({block:'start'});setTimeout(()=>play(k),300)};
+async function loadLib(){
+  try{const r=await fetch('videos.json?t='+Math.floor(Date.now()/600000),{cache:'no-store'});if(!r.ok)throw 0;lib.pub=await r.json();
+    $('libUpd').textContent='Consigliati aggiornati '+ago(lib.pub.updated);
+  }catch(e){lib.pub=null}
+  if(lib.mine.length){lib.tab='mine';refreshMine()}else lib.src=defaultSrc();
+  renderLib();
+}
+loadLib();
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&lib.tab==='mine')refreshMine()});
+
+/* Tiene lo schermo acceso mentre suona */
+let lock=null;
+async function wake(on){
+  try{if(on&&!lock&&'wakeLock' in navigator){lock=await navigator.wakeLock.request('screen');lock.addEventListener('release',()=>lock=null)}
+      else if(!on&&lock){await lock.release();lock=null}}catch(e){}
+}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')wake(decks.V.playing||decks.M.playing)});
+
+/* Mix salvati */
+const DEFAULT_MIXES=[{name:'Lavoro',v:'',m:'https://www.youtube.com/watch?v=jfKfPfyJRdk',vv:100,mv:30}];
+let mixes=store.get('mixes',DEFAULT_MIXES);let current=null;
+function renderChips(){
+  const c=$('chips');c.innerHTML='';
+  mixes.forEach((mx,i)=>{const b=document.createElement('button');b.className='chip'+(current===i?' on':'');b.setAttribute('role','listitem');
+    b.innerHTML=`<span></span><span class="x" aria-label="Elimina">×</span>`;b.firstChild.textContent=mx.name;
+    b.addEventListener('click',e=>{
+      if(e.target.classList.contains('x')){mixes.splice(i,1);if(current===i)current=null;store.set('mixes',mixes);renderChips();toast('Mix eliminato');return}
+      applyMix(i)});
+    c.appendChild(b)});
+  const add=document.createElement('button');add.className='chip';add.textContent='+ Nuovo mix';add.addEventListener('click',saveMix);c.appendChild(add);
+}
+function applyMix(i){
+  const mx=mixes[i];current=i;
+  [['V',mx.v,mx.vv],['M',mx.m,mx.mv]].forEach(([k,url,vol])=>{
+    $('in'+k).value=url||'';$('vol'+k).value=vol;$('vol'+k).dispatchEvent(new Event('input'));if(url) load(k,url)});
+  renderChips();toast('Mix "'+mx.name+'" caricato');
+}
+function saveMix(){
+  const v=$('inV').value.trim(),m=$('inM').value.trim();
+  if(!v&&!m){toast('Carica prima almeno un link');return}
+  const form=document.createElement('form');form.className='row';form.style.cssText='position:fixed;left:16px;right:16px;top:calc(70px + env(safe-area-inset-top,0px));z-index:40;background:var(--surface);padding:12px;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.35)';
+  form.innerHTML='<input class="field" id="mixName" placeholder="Nome del mix (es. Palestra)" maxlength="24" required><button class="pill red" type="submit">Salva</button><button class="pill" type="button" id="mixCancel">Annulla</button>';
+  document.body.appendChild(form);$('mixName').focus();
+  $('mixCancel').onclick=()=>form.remove();
+  form.onsubmit=e=>{e.preventDefault();const name=$('mixName').value.trim()||'Mix';
+    mixes.push({name,v,m,vv:decks.V.vol,mv:decks.M.vol});current=mixes.length-1;store.set('mixes',mixes);form.remove();renderChips();toast('Mix "'+name+'" salvato')};
+}
+$('saveMix').addEventListener('click',saveMix);
+renderChips();
+
+/* Ultimi link usati */
+['V','M'].forEach(k=>{const last=store.get('last'+k,'');if(last){$('in'+k).value=last;const s=parseYT(last);if(s){decks[k].src=s;$('e'+k).hidden=true}}});
+</script>
+</body>
+</html>
