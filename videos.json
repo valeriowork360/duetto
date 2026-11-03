@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:13:28+00:00",
+ "updated": "2026-11-03T21:45:31+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -855,6 +855,12 @@
    "id": "UCPGrgwfbkjTIgPoOh2q1BAg",
    "videos": [
     {
+     "id": "hlZ0nJwDGOE",
+     "title": "The AI bubble is popping",
+     "dur": 3200,
+     "date": "2026-11-03T20:02:25+00:00"
+    },
+    {
      "id": "9tOu4r-FiQI",
      "title": "This DeepSeek v4.1 is powerful and uncensored, let's run it",
      "dur": 2144,
@@ -883,12 +889,6 @@
      "title": "Stop paying for AI, run everything locally (here’s how)",
      "dur": 5740,
      "date": "2026-10-20T22:09:34+00:00"
-    },
-    {
-     "id": "YaK6cnET2IE",
-     "title": "OpenCode hack is INSANE.",
-     "dur": 1895,
-     "date": "2026-10-18T04:09:31+00:00"
     }
    ]
   },
@@ -1821,6 +1821,12 @@
    "id": "UCdCpMFAeBo7nf-tmiVvQrJg",
    "videos": [
     {
+     "id": "2tDzuwMKVAM",
+     "title": "Come gli Ingegneri di Anthropic usano DAVVERO Claude (6 nuove regole)",
+     "dur": 716,
+     "date": "2026-11-03T16:15:28+00:00"
+    },
+    {
      "id": "Qc4QQNkUXXs",
      "title": "Claude è appena Cambiato: Le 5 Grandi Novità da sapere",
      "dur": 1089,
@@ -1849,12 +1855,6 @@
      "title": "Tutto ciò che sai sulle Claude Skills è VECCHIO (7 nuove regole)",
      "dur": 870,
      "date": "2026-10-15T15:00:18+00:00"
-    },
-    {
-     "id": "W0WG2H9FCws",
-     "title": "CLAUDE 2.0: Il più GRANDE Aggiornamento di Claude Code MAI Fatto",
-     "dur": 1175,
-     "date": "2026-10-12T15:00:25+00:00"
     }
    ]
   },
