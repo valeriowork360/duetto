@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:16:47+00:00",
+ "updated": "2026-11-04T21:54:47+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -771,6 +771,12 @@
    "id": "UCRCWJCFoZUvkkWzIqzfBy6g",
    "videos": [
     {
+     "id": "2yiZw7QJSOg",
+     "title": "La disfatta di Trump alle Midterm: cosa succede ora negli USA?",
+     "dur": 823,
+     "date": "2026-11-04T18:47:26+00:00"
+    },
+    {
      "id": "o3uxpCbTz8A",
      "title": "La geopolitica dell'Oceania è più importante di quanto pensi",
      "dur": 1142,
@@ -799,12 +805,6 @@
      "title": "Perché i tetti delle città italiane sono rossi?",
      "dur": 1121,
      "date": "2026-10-16T10:25:17+00:00"
-    },
-    {
-     "id": "rwV7ovFs6mg",
-     "title": "La Turchia tiene tutti per la gola. Ecco perché",
-     "dur": 1555,
-     "date": "2026-10-13T10:19:19+00:00"
     }
    ]
   },
@@ -1317,6 +1317,12 @@
    "id": "UC4yFUEcq0SGs3_BHxF9q5Ww",
    "videos": [
     {
+     "id": "vru9hs8Ktws",
+     "title": "I Tested Higgsfield's New Content Factory So You Don't Have To",
+     "dur": 991,
+     "date": "2026-11-04T19:30:21+00:00"
+    },
+    {
      "id": "FId-CKe9mlE",
      "title": "Is AI Video Actually Getting WORSE?! Kling 4.0 vs 3.0 Full Test",
      "dur": 637,
@@ -1345,12 +1351,6 @@
      "title": "Claude Aura Farming Edits are Taking Over. Here's How to Make One.",
      "dur": 452,
      "date": "2026-10-16T16:11:46+00:00"
-    },
-    {
-     "id": "M8OcwZhXUK0",
-     "title": "I Tried Higgsfield's New AI Influencers... It's WEIRD",
-     "dur": 419,
-     "date": "2026-10-14T12:58:57+00:00"
     }
    ]
   },
@@ -1695,6 +1695,12 @@
    "id": "UCPjNBjflYl0-HQtUvOx0Ibw",
    "videos": [
     {
+     "id": "b3tMAOFB71o",
+     "title": "Anxious About AI? Start Here.",
+     "dur": 1328,
+     "date": "2026-11-04T20:30:20+00:00"
+    },
+    {
      "id": "67BmkptgTms",
      "title": "The $1M+ Solo Grok Bot Business (Full Course)",
      "dur": 2972,
@@ -1723,12 +1729,6 @@
      "title": "The 9 Stages of AI Agent Adoption, Explained",
      "dur": 1873,
      "date": "2026-10-21T19:15:33+00:00"
-    },
-    {
-     "id": "tpZOU1ugODQ",
-     "title": "Meta Muse Will Create 1,000 Millionaires",
-     "dur": 1475,
-     "date": "2026-10-19T17:50:26+00:00"
     }
    ]
   },
@@ -1736,6 +1736,12 @@
    "name": "Mauro Caimi - Trading On",
    "id": "UCkkP8HpQG0LuMzGUMJzLEMw",
    "videos": [
+    {
+     "id": "RgpGOMpIPOw",
+     "title": "Bitcoin oggi: Trump perde le elezioni midterm, e adesso?",
+     "dur": 1011,
+     "date": "2026-11-04T17:00:08+00:00"
+    },
     {
      "id": "fedVzFCfxdg",
      "title": "Bitcoin oggi: rimbalzo o 75.000 dopo le midterm?",
@@ -1765,12 +1771,6 @@
      "title": "Bitcoin: la figura di analisi ciclica che manda in stop long e short",
      "dur": 1206,
      "date": "2026-10-23T16:00:24+00:00"
-    },
-    {
-     "id": "xeyWycKTm28",
-     "title": "Bitcoin sale o scende? Le prossime settimane le decidono due livelli",
-     "dur": 1125,
-     "date": "2026-10-19T16:00:36+00:00"
     }
    ]
   },
@@ -1778,6 +1778,12 @@
    "name": "GabrySolution",
    "id": "UC8oBIE88TrCD1b-gnVqXzgw",
    "videos": [
+    {
+     "id": "IcJ49rzLvrI",
+     "title": "Claude e ChatGPT Hanno Finalmente un Rivale SERIO (e Puoi Provarlo GRATIS)",
+     "dur": 700,
+     "date": "2026-11-04T18:00:31+00:00"
+    },
     {
      "id": "zK4g5crV4w4",
      "title": "Anthropic Va in Borsa e AMMETTE Cosa Hanno Fatto le Sue AI (+37 Novità AI)",
@@ -1807,12 +1813,6 @@
      "title": "Come Clonare Qualsiasi App con l'IA in Modo Così Preciso che Sembra ILLEGALE (Senza Codice)",
      "dur": 756,
      "date": "2026-10-23T15:30:31+00:00"
-    },
-    {
-     "id": "poaWeJmPGW0",
-     "title": "Ho testato Gemini 4: Google è DAVVERO tornata?",
-     "dur": 764,
-     "date": "2026-10-21T15:30:11+00:00"
     }
    ]
   },
