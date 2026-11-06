@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:55:25+00:00",
+ "updated": "2026-11-06T21:29:36+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -1401,6 +1401,12 @@
    "id": "UCBahpZUV9wGy0ZdiVL2rqCA",
    "videos": [
     {
+     "id": "8XttNiw041I",
+     "title": "MICHELE SINDONA: il banchiere italiano che ha TRUFFATO gli STATI UNITI",
+     "dur": 1704,
+     "date": "2026-11-06T17:00:20+00:00"
+    },
+    {
      "id": "hGruKYZ89qE",
      "title": "Perché la CRISI del DEBITO USA colpisce TUTTI?",
      "dur": 1142,
@@ -1429,12 +1435,6 @@
      "title": "Perché la CRISI VOLKSWAGEN può TRASCINARE con sè L'INDUSTRIA ITALIANA",
      "dur": 992,
      "date": "2026-10-16T16:00:04+00:00"
-    },
-    {
-     "id": "N3DH6Jyia7M",
-     "title": "COCA COLA VS PEPSI: la più grande GUERRA DI MARKETING della STORIA",
-     "dur": 1442,
-     "date": "2026-10-09T16:00:28+00:00"
     }
    ]
   },
@@ -1442,6 +1442,12 @@
    "name": "Secondo Alberto Naska",
    "id": "UCtEj8sqnI-ClWqY_a-CtEoA",
    "videos": [
+    {
+     "id": "d_2lvrt78hE",
+     "title": "MA CHE È SUCCESSO a THE LINE? La mega città nel DESERTO da 8.000.000.000.000$?",
+     "dur": 1195,
+     "date": "2026-11-06T17:03:31+00:00"
+    },
     {
      "id": "urH6Ox6ENLY",
      "title": "DISASTRO FERROVIARIO IN SPAGNA - Ricostruzione con TELEMETRIA - Cosa è SUCCESSO?",
@@ -1471,12 +1477,6 @@
      "title": "È PEGGIO DI QUANTO PENSASSIMO - OceanGate e il disastro del Titan",
      "dur": 1369,
      "date": "2026-10-14T15:54:34+00:00"
-    },
-    {
-     "id": "wd0LYpwlVec",
-     "title": "LA NEBBIA CHE UCCISE 12.000 PERSONE",
-     "dur": 828,
-     "date": "2026-10-06T16:00:23+00:00"
     }
    ]
   },
@@ -1737,6 +1737,12 @@
    "id": "UCkkP8HpQG0LuMzGUMJzLEMw",
    "videos": [
     {
+     "id": "q_1d2yUv-_c",
+     "title": "Bitcoin CROLLO a 66.000$? Bagno di sangue a Wall Street",
+     "dur": 1156,
+     "date": "2026-11-06T17:00:33+00:00"
+    },
+    {
      "id": "RgpGOMpIPOw",
      "title": "Bitcoin oggi: Trump perde le elezioni midterm, e adesso?",
      "dur": 1011,
@@ -1765,12 +1771,6 @@
      "title": "Bitcoin rimbalza o va a 75.000? La risposta del ciclo",
      "dur": 1282,
      "date": "2026-10-26T17:00:12+00:00"
-    },
-    {
-     "id": "Zbjxhpkumgg",
-     "title": "Bitcoin: la figura di analisi ciclica che manda in stop long e short",
-     "dur": 1206,
-     "date": "2026-10-23T16:00:24+00:00"
     }
    ]
   },
@@ -1778,6 +1778,12 @@
    "name": "GabrySolution",
    "id": "UC8oBIE88TrCD1b-gnVqXzgw",
    "videos": [
+    {
+     "id": "hWGNlPTJIwg",
+     "title": "⁠Se Dovessi Imparare l'Al da Zero, Farei QUESTO",
+     "dur": 1614,
+     "date": "2026-11-06T16:30:13+00:00"
+    },
     {
      "id": "IcJ49rzLvrI",
      "title": "Claude e ChatGPT Hanno Finalmente un Rivale SERIO (e Puoi Provarlo GRATIS)",
@@ -1807,12 +1813,6 @@
      "title": "8 Cose PAZZESCHE che Puoi Creare con ChatGPT Sites (Anche un'App Vera)",
      "dur": 888,
      "date": "2026-10-26T16:30:08+00:00"
-    },
-    {
-     "id": "nGaE-8wAkq4",
-     "title": "Come Clonare Qualsiasi App con l'IA in Modo Così Preciso che Sembra ILLEGALE (Senza Codice)",
-     "dur": 756,
-     "date": "2026-10-23T15:30:31+00:00"
     }
    ]
   },
@@ -1820,6 +1820,12 @@
    "name": "Michele Cotti",
    "id": "UCdCpMFAeBo7nf-tmiVvQrJg",
    "videos": [
+    {
+     "id": "Q2g10hBylDg",
+     "title": "La Nuova Era degli Agenti AI si chiama Harness",
+     "dur": 1117,
+     "date": "2026-11-06T16:00:06+00:00"
+    },
     {
      "id": "2tDzuwMKVAM",
      "title": "Come gli Ingegneri di Anthropic usano DAVVERO Claude (6 nuove regole)",
@@ -1849,12 +1855,6 @@
      "title": "Claude Ha Appena Lanciato MOTION (Impara il 99% in 13 minuti)",
      "dur": 832,
      "date": "2026-10-20T15:00:06+00:00"
-    },
-    {
-     "id": "ah1dEYkrq3E",
-     "title": "Tutto ciò che sai sulle Claude Skills è VECCHIO (7 nuove regole)",
-     "dur": 870,
-     "date": "2026-10-15T15:00:18+00:00"
     }
    ]
   },
