@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T16:08:32+00:00",
+ "updated": "2026-11-11T22:41:33+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -813,6 +813,18 @@
    "id": "UCNg4RDHGls-HpbV10kWPlsw",
    "videos": [
     {
+     "id": "IqXzxZ7tzBI",
+     "title": "Ambizione e carriera oggi sono due cose molto diverse.",
+     "dur": 0,
+     "date": "2026-11-10T22:30:00+00:00"
+    },
+    {
+     "id": "jmozJhcLu_8",
+     "title": "Ci vuole tempo per diventare credibili. E ci vuole tempo per promuovere qualunque cosa: un progetto,",
+     "dur": 0,
+     "date": "2026-11-10T22:00:19+00:00"
+    },
+    {
      "id": "9vRbnnIHA_Q",
      "title": "Come capire se la tua idea vende prima di costruirla",
      "dur": 1607,
@@ -835,18 +847,6 @@
      "title": "È possibile fare una startup da solo + AI, in 90 giorni?",
      "dur": 1732,
      "date": "2026-10-30T11:00:20+00:00"
-    },
-    {
-     "id": "IzK6MD15TKk",
-     "title": "Ho Litigato con ChatGPT",
-     "dur": 1377,
-     "date": "2026-10-28T11:00:38+00:00"
-    },
-    {
-     "id": "MtqeOPP6wPg",
-     "title": "Perché Musk ha fatto volare un'auto?",
-     "dur": 544,
-     "date": "2026-10-16T11:45:22+00:00"
     }
    ]
   },
@@ -1149,6 +1149,12 @@
    "id": "UC-PQKtrPhk3JXyjUleBLgQQ",
    "videos": [
     {
+     "id": "j2W_Bedt2iw",
+     "title": "My Plan to Print $10k+/mo with GTA 6 + Claude (low effort)",
+     "dur": 875,
+     "date": "2026-11-11T18:46:21+00:00"
+    },
+    {
      "id": "aRiGQPd2YUc",
      "title": "I Tested Fable 5.2 vs GPT-6 Astra. I Was Shocked.",
      "dur": 639,
@@ -1162,7 +1168,7 @@
     },
     {
      "id": "KeOKEYEIutQ",
-     "title": "6 ways to print $$$ with grok bot + claude",
+     "title": "6 ways to print $$$ with grok bot",
      "dur": 2232,
      "date": "2026-11-06T15:16:07+00:00"
     },
@@ -1177,12 +1183,6 @@
      "title": "This video will make the right person disgustingly rich",
      "dur": 1679,
      "date": "2026-10-27T19:37:21+00:00"
-    },
-    {
-     "id": "J-_FxRAvqg4",
-     "title": "The Most Powerful AI GitHub Repo I've Ever Tried.. (actually insane)",
-     "dur": 943,
-     "date": "2026-10-24T15:53:03+00:00"
     }
    ]
   },
@@ -1317,6 +1317,12 @@
    "id": "UC4yFUEcq0SGs3_BHxF9q5Ww",
    "videos": [
     {
+     "id": "aX5eTKQNSB8",
+     "title": "Give me 9 minutes. I'll make you an AI Video Pro.",
+     "dur": 551,
+     "date": "2026-11-11T19:44:09+00:00"
+    },
+    {
      "id": "MLCKx6VaSUg",
      "title": "Is ElevenLabs V4 Worth The Hype? (Full Review)",
      "dur": 546,
@@ -1345,12 +1351,6 @@
      "title": "I Spent $500 Testing AI Video Models. Here's EVERY Result",
      "dur": 1250,
      "date": "2026-10-27T18:20:31+00:00"
-    },
-    {
-     "id": "DTIDsfYgCAo",
-     "title": "I Found the BEST AI Animation Model - Kling 4.0 vs Seedance 2.5",
-     "dur": 685,
-     "date": "2026-10-23T14:38:45+00:00"
     }
    ]
   },
@@ -1695,6 +1695,12 @@
    "id": "UCPjNBjflYl0-HQtUvOx0Ibw",
    "videos": [
     {
+     "id": "1cWZ7Ekff6E",
+     "title": "Use Grok Bot Better Than 99% of People (Full Course)",
+     "dur": 2912,
+     "date": "2026-11-11T18:00:16+00:00"
+    },
+    {
      "id": "G3i2k6DdI0o",
      "title": "Claude Fable 5.2: How I’d Make Money With It",
      "dur": 1176,
@@ -1723,12 +1729,6 @@
      "title": "SaaS is dead?",
      "dur": 673,
      "date": "2026-10-29T19:25:16+00:00"
-    },
-    {
-     "id": "st61aKW8P5A",
-     "title": "$100M ARR Founder: The Next Big AI Opportunity",
-     "dur": 2961,
-     "date": "2026-10-28T17:40:18+00:00"
     }
    ]
   },
@@ -1827,6 +1827,12 @@
      "date": "2026-11-10T17:23:11+00:00"
     },
     {
+     "id": "rQExiTvB5Gk",
+     "title": "Fable 5.2 e Mythos 5.2 sono la stessa AI: una la puoi usare, l'altra no.",
+     "dur": 0,
+     "date": "2026-11-10T17:01:49+00:00"
+    },
+    {
      "id": "Q2g10hBylDg",
      "title": "La Nuova Era degli Agenti AI si chiama Harness",
      "dur": 1117,
@@ -1849,12 +1855,6 @@
      "title": "Come Funziona DAVVERO l'AI? Tutti i SEGRETI degli LLM",
      "dur": 951,
      "date": "2026-10-26T15:45:17+00:00"
-    },
-    {
-     "id": "mY6Cep75dJA",
-     "title": "Claude Ha Appena Lanciato DUET (Analisi Completa)",
-     "dur": 607,
-     "date": "2026-10-23T17:30:18+00:00"
     }
    ]
   },
@@ -2073,10 +2073,22 @@
    "id": "UCbMlkb79E12CwveGAtdFj-A",
    "videos": [
     {
+     "id": "Aeiys191to8",
+     "title": "Nuovo Fable 5.2 di Anthropic Ecco tutto quello che devi sapere!",
+     "dur": 0,
+     "date": "2026-11-10T19:58:54+00:00"
+    },
+    {
      "id": "xr_CXrd6Wpk",
      "title": "Ma cosa ha combinato Anthropic?! (Mythos/Fable 5.2)",
      "dur": 1291,
      "date": "2026-11-10T17:44:04+00:00"
+    },
+    {
+     "id": "hPp0zqEmroY",
+     "title": "Andrej Karpathy ha ricreato youtube in sole 2 ore con Claude opus 5.5.",
+     "dur": 0,
+     "date": "2026-11-10T15:00:45+00:00"
     },
     {
      "id": "-M_D7RBvkZ4",
@@ -2095,18 +2107,6 @@
      "title": "Ho collegato Claude Code alla mia vecchia Android TV: ecco cosa è successo",
      "dur": 714,
      "date": "2026-10-30T14:44:25+00:00"
-    },
-    {
-     "id": "1NpcvLN8t3c",
-     "title": "Kimi K3.1 Pro: Cosa Succede se gli Hacker Usano Questa AI?",
-     "dur": 1619,
-     "date": "2026-10-24T07:00:04+00:00"
-    },
-    {
-     "id": "Lm0-BvHMIIA",
-     "title": "Proponi questo strumento AI al tuo capo (ti farà tech lead in 2 minuti)",
-     "dur": 951,
-     "date": "2026-10-23T12:58:25+00:00"
     }
    ]
   },
