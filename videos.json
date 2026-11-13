@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:21:43+00:00",
+ "updated": "2026-11-13T22:00:37+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -1162,7 +1162,7 @@
     },
     {
      "id": "GlZD3slJcOk",
-     "title": "5 INSANE Fable 5.2 Use Cases (actually AGI)",
+     "title": "5 INSANE Things You Can Build w/ Claude Fable 5.2",
      "dur": 877,
      "date": "2026-11-10T02:31:58+00:00"
     },
@@ -1401,6 +1401,12 @@
    "id": "UCBahpZUV9wGy0ZdiVL2rqCA",
    "videos": [
     {
+     "id": "zNEuSWjT-L4",
+     "title": "GTA VI: come ROCKSTAR ha creato una MACCHINA DA SOLDI",
+     "dur": 1335,
+     "date": "2026-11-13T17:00:36+00:00"
+    },
+    {
      "id": "8XttNiw041I",
      "title": "MICHELE SINDONA: il banchiere italiano che ha TRUFFATO gli STATI UNITI",
      "dur": 1704,
@@ -1429,12 +1435,6 @@
      "title": "LUNEDÍ NERO: Il giorno PEGGIORE della storia di WALL STREET",
      "dur": 1352,
      "date": "2026-10-20T16:00:37+00:00"
-    },
-    {
-     "id": "NQeYRDIf6SU",
-     "title": "Perché la CRISI VOLKSWAGEN può TRASCINARE con sè L'INDUSTRIA ITALIANA",
-     "dur": 992,
-     "date": "2026-10-16T16:00:04+00:00"
     }
    ]
   },
@@ -1737,6 +1737,12 @@
    "id": "UCkkP8HpQG0LuMzGUMJzLEMw",
    "videos": [
     {
+     "id": "5bIlceuNNuI",
+     "title": "Bitcoin: crash fino ai minimi di giugno?",
+     "dur": 1185,
+     "date": "2026-11-13T17:16:31+00:00"
+    },
+    {
      "id": "HV4-ZlDkD_Y",
      "title": "Bitcoin ripete il 2015? Il rischio resta fino a gennaio",
      "dur": 1054,
@@ -1765,12 +1771,6 @@
      "title": "Binance hack da 6 miliardi: Bitcoin rischia come con FTX?",
      "dur": 1153,
      "date": "2026-10-30T11:43:27+00:00"
-    },
-    {
-     "id": "MMRTxlpANG0",
-     "title": "Bitcoin e tassi Fed: la bull run è a rischio?",
-     "dur": 971,
-     "date": "2026-10-28T17:00:22+00:00"
     }
    ]
   },
@@ -2117,37 +2117,37 @@
     {
      "id": "04ox8vJ5pyM",
      "title": "Dario Fabbri: il Nuovo Ordine mondiale in 6 Mappe",
-     "dur": 4961,
+     "dur": 0,
      "date": "2026-10-25T18:30:07+00:00"
     },
     {
      "id": "VIUDsHuX07A",
      "title": "Gratteri: Il futuro del narcotraffico è già qui",
-     "dur": 3327,
+     "dur": 0,
      "date": "2026-10-04T18:30:11+00:00"
     },
     {
      "id": "uBQwSdRi95w",
      "title": "Astrofisico Spiega Il Destino dell'Universo",
-     "dur": 5634,
+     "dur": 0,
      "date": "2026-09-06T18:30:06+00:00"
     },
     {
      "id": "ZrZgAfXp6Tk",
      "title": "Dario Fabbri: Senza questo non capisci le Nazioni",
-     "dur": 5321,
+     "dur": 0,
      "date": "2026-08-09T18:00:06+00:00"
     },
     {
      "id": "UTZxylYUaS0",
      "title": "Ghisellini spiega il più grande Errore di Einstein",
-     "dur": 2939,
+     "dur": 0,
      "date": "2026-07-12T19:30:06+00:00"
     },
     {
      "id": "Kn-ca_OBAEQ",
      "title": "Stefano Mancuso: Le Città ci stanno Uccidendo",
-     "dur": 4848,
+     "dur": 0,
      "date": "2026-06-28T18:00:07+00:00"
     }
    ]
