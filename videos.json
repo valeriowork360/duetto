@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:39:18+00:00",
+ "updated": "2026-11-15T21:01:40+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -814,7 +814,7 @@
    "videos": [
     {
      "id": "XwwcP3XiTJA",
-     "title": "Perché Il Tuo Business Non Cresce",
+     "title": "Il Vero Motivo Per Cui Nessuno Ti Paga",
      "dur": 2767,
      "date": "2026-11-15T12:10:10+00:00"
     },
@@ -1779,6 +1779,12 @@
    "id": "UC8oBIE88TrCD1b-gnVqXzgw",
    "videos": [
     {
+     "id": "4b74V5TOW5E",
+     "title": "Claude Fable 5.2 e Gemini 4 Carbon Sono Usciti in 24 ORE (Ecco Quale Usare +20 Novità AI)",
+     "dur": 1353,
+     "date": "2026-11-15T16:30:30+00:00"
+    },
+    {
      "id": "6WjE14OhyTY",
      "title": "Dammi 13 Minuti e ti Insegno Gemini da Zero",
      "dur": 796,
@@ -1807,12 +1813,6 @@
      "title": "Anthropic Va in Borsa e AMMETTE Cosa Hanno Fatto le Sue AI (+37 Novità AI)",
      "dur": 1623,
      "date": "2026-11-02T18:00:37+00:00"
-    },
-    {
-     "id": "TjMf4YOtlf0",
-     "title": "Come Creare Animazioni PAZZESCHE con Claude (Prompt Gratis)",
-     "dur": 623,
-     "date": "2026-10-30T16:30:20+00:00"
     }
    ]
   },
