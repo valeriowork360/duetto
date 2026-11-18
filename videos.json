@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T17:37:11+00:00",
+ "updated": "2026-11-18T07:21:53+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -646,7 +646,7 @@
    "videos": [
     {
      "id": "2NbL_byl370",
-     "title": "30 MIN Full Body Strength // Dumbbells Only 💪🏻",
+     "title": "30 MIN Full Body Strength // Dumbbells Only Push Workout 💪🏻",
      "dur": 2004,
      "date": "2026-11-09T12:59:48+00:00"
     },
@@ -855,6 +855,12 @@
    "id": "UCPGrgwfbkjTIgPoOh2q1BAg",
    "videos": [
     {
+     "id": "K81vU-gykmQ",
+     "title": "RSI is here?! GPT 6.2 is “high” on recursive self-improvement",
+     "dur": 1630,
+     "date": "2026-11-17T22:37:19+00:00"
+    },
+    {
      "id": "7-Tj5qaOUbc",
      "title": "Build your own open-source Grok Bot, here’s how",
      "dur": 3415,
@@ -883,12 +889,6 @@
      "title": "The AI bubble is popping",
      "dur": 3200,
      "date": "2026-11-03T20:02:25+00:00"
-    },
-    {
-     "id": "9tOu4r-FiQI",
-     "title": "This DeepSeek v4.1 is powerful and uncensored, let's run it",
-     "dur": 2144,
-     "date": "2026-11-02T01:37:53+00:00"
     }
    ]
   },
@@ -896,6 +896,12 @@
    "name": "Raffaele Gaito",
    "id": "UCrebGs3b-Z7JLKQM2YOpUKA",
    "videos": [
+    {
+     "id": "_e8tlVrG_cw",
+     "title": "AI gratis sul tuo computer grazie a questa app [tutorial colibrì]",
+     "dur": 850,
+     "date": "2026-11-18T07:00:05+00:00"
+    },
     {
      "id": "BQmWssgyw-Q",
      "title": "7 AI in sconto black friday che non puoi perderti [Promo AppSumo]",
@@ -925,12 +931,6 @@
      "title": "Un comando utilissimo di Claude Code (che non conosci)",
      "dur": 647,
      "date": "2026-11-12T07:00:26+00:00"
-    },
-    {
-     "id": "YK2-fpu6goE",
-     "title": "Anthropic rilascia Fable 5.2 e Mythos 5.2 (non solo cybersecurity)",
-     "dur": 637,
-     "date": "2026-11-10T12:42:18+00:00"
     }
    ]
   },
@@ -981,6 +981,12 @@
    "id": "UCvza9EqE6pp2_4iDE-buscg",
    "videos": [
     {
+     "id": "-PL3sOJhmv4",
+     "title": "Fire Sales Are On The Rise: The Australian Housing Market Is Collapsing",
+     "dur": 725,
+     "date": "2026-11-17T21:00:31+00:00"
+    },
+    {
      "id": "mPqYtYddudg",
      "title": "A 5% Price Fall Could Wipe You Out Completely",
      "dur": 771,
@@ -1009,12 +1015,6 @@
      "title": "WARNING: Australia’s Inflation Spike Could Hit House Prices (Prepare Now)",
      "dur": 999,
      "date": "2026-10-30T00:00:34+00:00"
-    },
-    {
-     "id": "o8ZInQV_Lhc",
-     "title": "Australia's Biggest Price Fall Ever: Which City Will Break First?",
-     "dur": 907,
-     "date": "2026-10-28T00:00:39+00:00"
     }
    ]
   },
@@ -1022,6 +1022,12 @@
    "name": "Jason Pizzino",
    "id": "UCIb34uXDsfTq4PJKW0eztkA",
    "videos": [
+    {
+     "id": "IpQrqPil5xg",
+     "title": "Last Time It Crashed Like This, The Markets Squeezed Them Out!",
+     "dur": 1379,
+     "date": "2026-11-18T02:08:21+00:00"
+    },
     {
      "id": "vEOaEa4E6Ms",
      "title": "Gold & Silver Are Collapsing: This Is Worse Than 2011",
@@ -1051,12 +1057,6 @@
      "title": "Last Time This Happened The Markets Crashed… (but there’s a catch)",
      "dur": 1693,
      "date": "2026-11-11T00:48:54+00:00"
-    },
-    {
-     "id": "cn_xARVOK6E",
-     "title": "This Stock Market Bottom Is Different (trap revealed)",
-     "dur": 1569,
-     "date": "2026-11-10T03:19:13+00:00"
     }
    ]
   },
@@ -1064,6 +1064,12 @@
    "name": "Jeremy Lefebvre Makes Money",
    "id": "UC12lnsYNt8_VthTNOuOGTmQ",
    "videos": [
+    {
+     "id": "wPsNyd0fP2k",
+     "title": "This is the big one‼️",
+     "dur": 2710,
+     "date": "2026-11-18T01:20:59+00:00"
+    },
     {
      "id": "FcN3VBT_86I",
      "title": "New Millionaires will be made now‼️",
@@ -1093,12 +1099,6 @@
      "title": "Tech Stocks Plunge, Here’s What’s Next",
      "dur": 2197,
      "date": "2026-10-30T20:13:50+00:00"
-    },
-    {
-     "id": "JMaLx81fnGs",
-     "title": "I Sold it all",
-     "dur": 3410,
-     "date": "2026-10-30T01:01:43+00:00"
     }
    ]
   },
