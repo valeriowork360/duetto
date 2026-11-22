@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:15:11+00:00",
+ "updated": "2026-11-22T21:46:25+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -1149,6 +1149,12 @@
    "id": "UC-PQKtrPhk3JXyjUleBLgQQ",
    "videos": [
     {
+     "id": "CfEq9xiMPJQ",
+     "title": "I Tested Gemini Neon 4 vs Claude. What You Need To Know.",
+     "dur": 0,
+     "date": "2026-11-22T21:43:16+00:00"
+    },
+    {
      "id": "RonPIktmLoQ",
      "title": "I Don’t Trust Claude Anymore. Use This Instead.",
      "dur": 620,
@@ -1177,12 +1183,6 @@
      "title": "I Tested Fable 5.2 vs GPT-6 Astra. I Was Shocked.",
      "dur": 639,
      "date": "2026-11-10T19:33:20+00:00"
-    },
-    {
-     "id": "GlZD3slJcOk",
-     "title": "5 INSANE Things You Can Build w/ Claude Fable 5.2",
-     "dur": 877,
-     "date": "2026-11-10T02:31:58+00:00"
     }
    ]
   },
@@ -1233,6 +1233,12 @@
    "id": "UCEL7E93I1iBhjIoqRpGqUng",
    "videos": [
     {
+     "id": "yA_YCOqvM_8",
+     "title": "Complete Guide to Crypto AI Trading with Just $1,000 [Beginner Friendly]",
+     "dur": 2096,
+     "date": "2026-11-22T20:28:51+00:00"
+    },
+    {
      "id": "oy0N20yedzk",
      "title": "Is The Largest Crypto Crash In History Beginning?",
      "dur": 397,
@@ -1261,12 +1267,6 @@
      "title": "The ONLY Grok Bot Trading Tutorial You Need 2026 - How To Use Grok Bot For Beginners",
      "dur": 848,
      "date": "2026-10-27T18:53:17+00:00"
-    },
-    {
-     "id": "Jj0kiKh027o",
-     "title": "I Backtested 10,000 Crypto Charts in 5 Minutes With AI",
-     "dur": 616,
-     "date": "2026-10-22T16:26:59+00:00"
     }
    ]
   },
@@ -1779,6 +1779,12 @@
    "id": "UC8oBIE88TrCD1b-gnVqXzgw",
    "videos": [
     {
+     "id": "qPBhWyy8u7o",
+     "title": "Come il #1 al Mondo Usa DAVVERO I'AI (Senza Codice)",
+     "dur": 548,
+     "date": "2026-11-22T16:30:09+00:00"
+    },
+    {
      "id": "K6iOSqstwdg",
      "title": "20 Superpoteri di Gemini che il 99% NON conosce (quasi tutti GRATIS)",
      "dur": 1309,
@@ -1807,12 +1813,6 @@
      "title": "Che DIAVOLO Sta Succedendo Dentro OpenAI?",
      "dur": 1240,
      "date": "2026-11-09T16:30:25+00:00"
-    },
-    {
-     "id": "hWGNlPTJIwg",
-     "title": "Se Dovessi Imparare l'AI DA ZERO nel 2027, Farei Così!",
-     "dur": 1614,
-     "date": "2026-11-06T16:30:13+00:00"
     }
    ]
   },
@@ -2073,6 +2073,12 @@
    "id": "UCbMlkb79E12CwveGAtdFj-A",
    "videos": [
     {
+     "id": "9DmYD_5v7VA",
+     "title": "Inkling 2 Mini sfida Qwen 3.8 27B: che differenza fa il loop?",
+     "dur": 1782,
+     "date": "2026-11-22T21:14:18+00:00"
+    },
+    {
      "id": "Q_oKzF9KLxQ",
      "title": "Nuovo GPT-6.2 batte veramente Fable 5.2?",
      "dur": 1274,
@@ -2101,12 +2107,6 @@
      "title": "Non implementare un'LLM Wiki prima di aver visto questo video",
      "dur": 1460,
      "date": "2026-11-09T16:00:39+00:00"
-    },
-    {
-     "id": "YPHUHKnbxhE",
-     "title": "L’AI RISCRIVE un’altra AI: l’ho provato e funziona",
-     "dur": 1560,
-     "date": "2026-11-03T15:27:34+00:00"
     }
    ]
   },
