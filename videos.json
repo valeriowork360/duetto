@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:46:25+00:00",
+ "updated": "2026-11-23T07:29:32+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -897,6 +897,12 @@
    "id": "UCrebGs3b-Z7JLKQM2YOpUKA",
    "videos": [
     {
+     "id": "eXEV5Cb1jgk",
+     "title": "Ecco perché Anthropic lancia prodotti per l'ufficio",
+     "dur": 666,
+     "date": "2026-11-23T07:00:10+00:00"
+    },
+    {
      "id": "Wajam73Xyek",
      "title": "Codice di condotta AI: cos'è e a cosa serve alle imprese [Arturo Dell'Isola]",
      "dur": 3087,
@@ -925,12 +931,6 @@
      "title": "I decision model sono solo hype o c'è altro?  [Marco De Rossi]",
      "dur": 3184,
      "date": "2026-11-13T07:00:21+00:00"
-    },
-    {
-     "id": "uqcFeWDn6Ag",
-     "title": "Un comando utilissimo di Claude Code (che non conosci)",
-     "dur": 647,
-     "date": "2026-11-12T07:00:26+00:00"
     }
    ]
   },
@@ -1151,7 +1151,7 @@
     {
      "id": "CfEq9xiMPJQ",
      "title": "I Tested Gemini Neon 4 vs Claude. What You Need To Know.",
-     "dur": 0,
+     "dur": 1178,
      "date": "2026-11-22T21:43:16+00:00"
     },
     {
@@ -2074,7 +2074,7 @@
    "videos": [
     {
      "id": "9DmYD_5v7VA",
-     "title": "Inkling 2 Mini sfida Qwen 3.8 27B: che differenza fa il loop?",
+     "title": "Inkling 2 Mini, il looping funziona finalmente!",
      "dur": 1782,
      "date": "2026-11-22T21:14:18+00:00"
     },
@@ -2199,6 +2199,12 @@
    "id": "UCz2wzs4KacqHth7R_N5grgA",
    "videos": [
     {
+     "id": "eZmzQbdbihQ",
+     "title": "The Market Is in Full Capitulation… But Something Is Changing",
+     "dur": 845,
+     "date": "2026-11-23T01:25:41+00:00"
+    },
+    {
      "id": "4ECLohg8aio",
      "title": "The Market Is in a Bloodbath… But Something Is Changing",
      "dur": 863,
@@ -2227,12 +2233,6 @@
      "title": "Something Is Changing… Bitcoin, Stocks and Gold at a Turning Point?",
      "dur": 608,
      "date": "2026-11-12T05:21:57+00:00"
-    },
-    {
-     "id": "_gdQ17YAumI",
-     "title": "The Stock Market Is Trying to Bottom… But There's a Problem",
-     "dur": 726,
-     "date": "2026-11-11T03:44:31+00:00"
     }
    ]
   }
