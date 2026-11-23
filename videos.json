@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:29:32+00:00",
+ "updated": "2026-11-23T20:09:45+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -771,6 +771,12 @@
    "id": "UCRCWJCFoZUvkkWzIqzfBy6g",
    "videos": [
     {
+     "id": "mhJ-F4PmUA0",
+     "title": "Se si blocca Bologna, si blocca l’Italia. Ecco perché",
+     "dur": 1016,
+     "date": "2026-11-23T11:35:37+00:00"
+    },
+    {
      "id": "ClzYNETzf9s",
      "title": "L'atroce storia della spedizione Franklin",
      "dur": 2758,
@@ -799,12 +805,6 @@
      "title": "La disfatta di Trump alle Midterm: cosa succede ora negli USA?",
      "dur": 823,
      "date": "2026-11-04T18:47:26+00:00"
-    },
-    {
-     "id": "o3uxpCbTz8A",
-     "title": "La geopolitica dell'Oceania è più importante di quanto pensi",
-     "dur": 1142,
-     "date": "2026-11-02T11:27:01+00:00"
     }
    ]
   },
@@ -1191,6 +1191,12 @@
    "id": "UCVVX-7tHff75fRAEEEnZiAQ",
    "videos": [
     {
+     "id": "hKstXh-zT7c",
+     "title": "Claude Tested 10,000 Trading Strategies (Only These Won)",
+     "dur": 1128,
+     "date": "2026-11-23T19:20:18+00:00"
+    },
+    {
      "id": "gQVup8_ZTUs",
      "title": "I Turned Claude Into a 24/7 Stock Trader (made $7,762)",
      "dur": 1099,
@@ -1219,12 +1225,6 @@
      "title": "I Tested The #1 Viral AI Trading Repo (Claude Hedge Fund)",
      "dur": 1265,
      "date": "2026-10-21T17:58:16+00:00"
-    },
-    {
-     "id": "DMYQlk9ybj0",
-     "title": "Claude + Telegram = The Most Insane AI Trading Bot Yet",
-     "dur": 989,
-     "date": "2026-09-29T12:52:26+00:00"
     }
    ]
   },
@@ -1569,6 +1569,12 @@
    "id": "UCZp2KqGRkO1goEAaxX5Huyg",
    "videos": [
     {
+     "id": "XyswxFiX8qY",
+     "title": "I Mercati crollano: non è la BOLLA che deve preoccuparti",
+     "dur": 1217,
+     "date": "2026-11-23T09:15:37+00:00"
+    },
+    {
      "id": "ef1nWfPRKIw",
      "title": "Se l’Europa salva la Francia, il conto lo paghi tu (come difendersi)",
      "dur": 837,
@@ -1597,12 +1603,6 @@
      "title": "Meglio obbligazioni o azioni col BTP al 5% ( i conti precisi per decidere)",
      "dur": 925,
      "date": "2026-11-03T11:01:54+00:00"
-    },
-    {
-     "id": "fEstJVjUkts",
-     "title": "Non ti licenzierà l'AI ma diminuirà il tuo Stipendio (fai questi calcoli)",
-     "dur": 1033,
-     "date": "2026-11-02T11:00:33+00:00"
     }
    ]
   },
@@ -1695,6 +1695,12 @@
    "id": "UCPjNBjflYl0-HQtUvOx0Ibw",
    "videos": [
     {
+     "id": "TXzJ4pGW59o",
+     "title": "SaaS is Over? Build a robotics company in 2027.",
+     "dur": 2947,
+     "date": "2026-11-23T18:45:05+00:00"
+    },
+    {
      "id": "tCY7zMknCJQ",
      "title": "Gemini 4 Neon: the most underrated model of the year",
      "dur": 966,
@@ -1723,12 +1729,6 @@
      "title": "AI Agents are too good at marketing now",
      "dur": 3120,
      "date": "2026-11-09T18:15:17+00:00"
-    },
-    {
-     "id": "b3tMAOFB71o",
-     "title": "8 Businesses for the AI Age",
-     "dur": 1328,
-     "date": "2026-11-04T20:30:20+00:00"
     }
    ]
   },
@@ -1736,6 +1736,12 @@
    "name": "Mauro Caimi - Trading On",
    "id": "UCkkP8HpQG0LuMzGUMJzLEMw",
    "videos": [
+    {
+     "id": "XRvzk-BXQv4",
+     "title": "Bitcoin e Nvidia volano: come nella bolla di internet?",
+     "dur": 1348,
+     "date": "2026-11-23T17:00:20+00:00"
+    },
     {
      "id": "QIXkbSw9DYE",
      "title": "Bitcoin crolla da 7 settimane: l'ultima volta era il 2022",
@@ -1765,12 +1771,6 @@
      "title": "Bitcoin ripete il 2015? Il rischio resta fino a gennaio",
      "dur": 1054,
      "date": "2026-11-09T17:00:38+00:00"
-    },
-    {
-     "id": "q_1d2yUv-_c",
-     "title": "Bitcoin CROLLO a 66.000$? Bagno di sangue a Wall Street",
-     "dur": 1156,
-     "date": "2026-11-06T17:00:33+00:00"
     }
    ]
   },
@@ -1821,10 +1821,10 @@
    "id": "UCdCpMFAeBo7nf-tmiVvQrJg",
    "videos": [
     {
-     "id": "DFP5YsiFzvg",
-     "title": "La chat di Claude che non si riempie mai: Billion Context ripiega le parti vecchie",
-     "dur": 0,
-     "date": "2026-11-22T11:03:02+00:00"
+     "id": "PwbKJ5GNfAI",
+     "title": "Crea il Tuo Primo Dipendente AI che lavora 24/7 (in 11 minuti)",
+     "dur": 674,
+     "date": "2026-11-23T16:00:31+00:00"
     },
     {
      "id": "mXERmcZRpIo",
@@ -1863,6 +1863,12 @@
    "id": "UCngfIs8G9JHVTeyXPEyb_tQ",
    "videos": [
     {
+     "id": "0vOgvjNiQnw",
+     "title": "Bolla AI o Correzione: non confondere un rimbalzo con la fine della Discesa",
+     "dur": 2518,
+     "date": "2026-11-23T14:26:53+00:00"
+    },
+    {
      "id": "UdpdhWOAhTQ",
      "title": "Il Portafoglio SANGUINA: l'errore che ho fatto (e cosa fare ora)",
      "dur": 2390,
@@ -1891,12 +1897,6 @@
      "title": "Trump ha PERSO: così cambia il mio Portafoglio per SEMPRE (con @quantaste)",
      "dur": 2327,
      "date": "2026-11-04T14:04:57+00:00"
-    },
-    {
-     "id": "qTm6a5KlIoA",
-     "title": "Questo NON è un CROLLO del mercato !",
-     "dur": 1678,
-     "date": "2026-11-02T15:13:58+00:00"
     }
    ]
   },
@@ -1904,6 +1904,12 @@
    "name": "AfterSide Crypto",
    "id": "UCyeE5RmrX5foJY_wGX-YPqA",
    "videos": [
+    {
+     "id": "u68HpDUEVyI",
+     "title": "🚨 ATTENZIONE VOLA TUTTO!! JENSEN HUANG TORNA.. BITCOIN è pronto",
+     "dur": 623,
+     "date": "2026-11-23T14:25:02+00:00"
+    },
     {
      "id": "1r1H8jZ7e-w",
      "title": "🚨 CRASH BITCOIN E ALTCOIN: ECCO IL MIO PIANO [time sensitive]",
@@ -1933,12 +1939,6 @@
      "title": "🟩 TXFLOW: PERP DEX IN CRESCITA - COME FUNZIONA?! [recensione completa]",
      "dur": 792,
      "date": "2026-11-14T09:00:02+00:00"
-    },
-    {
-     "id": "e1ZTsfrLPX0",
-     "title": "🚨 IL CICLO E' PARTITO... BITCOIN - ALTCOINS : LA STORIA SI RIPETE",
-     "dur": 757,
-     "date": "2026-11-12T10:59:24+00:00"
     }
    ]
   },
@@ -1946,6 +1946,12 @@
    "name": "Barbascura eXtra",
    "id": "UCHi6Q3Z-5oJUC691WLlSntA",
    "videos": [
+    {
+     "id": "-gT6AMgCgsc",
+     "title": "Sono carini finché non hanno fame",
+     "dur": 2133,
+     "date": "2026-11-23T13:13:35+00:00"
+    },
     {
      "id": "AzUKHG3vrFw",
      "title": "Il prezzo oscuro dell'acciaio",
@@ -1975,12 +1981,6 @@
      "title": "Il mostro che credevamo una leggenda",
      "dur": 1741,
      "date": "2026-10-19T12:00:24+00:00"
-    },
-    {
-     "id": "rJGRyceg7cE",
-     "title": "Il prezzo nascosto della rivoluzione elettrica",
-     "dur": 1810,
-     "date": "2026-10-12T12:00:08+00:00"
     }
    ]
   },
@@ -2031,6 +2031,12 @@
    "id": "UCY3TW6Oj67m6su5oiE80LwA",
    "videos": [
     {
+     "id": "mY19kaVPc1I",
+     "title": "Sono SHORT su BTC 🤷‍♂️ CryptoMonday NEWS w47/'26",
+     "dur": 1833,
+     "date": "2026-11-23T11:15:08+00:00"
+    },
+    {
      "id": "ht5raAdxc4c",
      "title": "Periodo interessante per il Lending",
      "dur": 497,
@@ -2059,12 +2065,6 @@
      "title": "Ti spiego la Stablecoin Season",
      "dur": 2088,
      "date": "2026-11-11T12:40:44+00:00"
-    },
-    {
-     "id": "lW7n6-wBwFc",
-     "title": "SCANDALI NVIDIA e Paraguay. BTC Soffre ma Salva 🚨 CryptoMonday NEWS w45/'26",
-     "dur": 1419,
-     "date": "2026-11-09T11:00:06+00:00"
     }
    ]
   },
