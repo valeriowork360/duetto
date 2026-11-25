@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:49:47+00:00",
+ "updated": "2026-11-25T00:40:18+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -603,6 +603,12 @@
    "id": "UCFKE7WVJfvaHW5q283SxchA",
    "videos": [
     {
+     "id": "LOmgwJhVDEg",
+     "title": "Standing Yoga Stretch | 10-Minute Full Body Reset",
+     "dur": 620,
+     "date": "2026-11-24T15:00:08+00:00"
+    },
+    {
      "id": "2dn-mcgyC8s",
      "title": "7 Minute Morning Meditation | Stillness to Start Your Day.",
      "dur": 433,
@@ -631,12 +637,6 @@
      "title": "Yoga for Better Posture | Chest, Shoulders & Upper Back",
      "dur": 1513,
      "date": "2026-09-08T14:00:11+00:00"
-    },
-    {
-     "id": "Cl3-Ebtefss",
-     "title": "Yoga For Anxiety and Overthinking | 20 Minute Practice",
-     "dur": 1156,
-     "date": "2026-08-25T14:00:40+00:00"
     }
    ]
   },
@@ -898,7 +898,7 @@
    "videos": [
     {
      "id": "Czvfis5n-3Q",
-     "title": "Ti fideresti di un'intelligenza (superiore) che non comprendi?",
+     "title": "Possiamo fidarci di un'AI che non capiamo appieno?",
      "dur": 892,
      "date": "2026-11-24T07:00:02+00:00"
     },
@@ -1149,6 +1149,12 @@
    "id": "UC-PQKtrPhk3JXyjUleBLgQQ",
    "videos": [
     {
+     "id": "TcJ8ldupcN0",
+     "title": "ChatGPT Wants To Pay You $8,000/Month (here’s how)",
+     "dur": 943,
+     "date": "2026-11-24T18:19:06+00:00"
+    },
+    {
      "id": "8zi6xTeh26w",
      "title": "I Tested Uncensored AI Models (and i’m f*cking shocked)",
      "dur": 1099,
@@ -1177,12 +1183,6 @@
      "title": "Anthropic Just Leaked How To Use Fable 5.2 For CHEAP! (insane hack)",
      "dur": 1159,
      "date": "2026-11-14T17:44:01+00:00"
-    },
-    {
-     "id": "j2W_Bedt2iw",
-     "title": "My Plan to Print $10k+/mo with GTA 6 + AI (low effort)",
-     "dur": 875,
-     "date": "2026-11-11T18:46:21+00:00"
     }
    ]
   },
@@ -1191,8 +1191,14 @@
    "id": "UCVVX-7tHff75fRAEEEnZiAQ",
    "videos": [
     {
+     "id": "qklXQosyZKI",
+     "title": "I Did It! I Finally Found The #1 AI Trading Bot (we’re early)",
+     "dur": 1228,
+     "date": "2026-11-24T21:28:35+00:00"
+    },
+    {
      "id": "hKstXh-zT7c",
-     "title": "Claude Tested 10,000 Trading Strategies (Only These Won)",
+     "title": "Claude Tested 10,000 Trading Strategies (This Won)",
      "dur": 1128,
      "date": "2026-11-23T19:20:18+00:00"
     },
@@ -1219,12 +1225,6 @@
      "title": "8 free AI trading repos that make f*ck you money",
      "dur": 861,
      "date": "2026-11-01T15:36:07+00:00"
-    },
-    {
-     "id": "ikE6BAjZUiA",
-     "title": "I Tested The #1 Viral AI Trading Repo (Claude Hedge Fund)",
-     "dur": 1265,
-     "date": "2026-10-21T17:58:16+00:00"
     }
    ]
   },
@@ -1236,37 +1236,37 @@
      "id": "yA_YCOqvM_8",
      "title": "Complete Guide to Crypto AI Trading with Just $1,000 [Beginner Friendly]",
      "dur": 2096,
-     "date": "2026-11-22T20:28:51+00:00"
+     "date": null
     },
     {
      "id": "oy0N20yedzk",
      "title": "Is The Largest Crypto Crash In History Beginning?",
      "dur": 397,
-     "date": "2026-11-14T16:58:22+00:00"
+     "date": null
     },
     {
      "id": "oTTcoMeP62I",
      "title": "I Asked Grok Which Altcoins Will 100X Before 2026 Ends",
      "dur": 446,
-     "date": "2026-11-09T20:34:54+00:00"
+     "date": null
     },
     {
      "id": "SeapZSBYiLw",
      "title": "The Bull Trap Nobody Sees Coming (BTC & SOL)",
      "dur": 468,
-     "date": "2026-11-06T21:58:24+00:00"
+     "date": null
     },
     {
      "id": "YJZ6zlbhR30",
      "title": "I Turned Grok Bot Into My Full Time Financial Analyst",
      "dur": 626,
-     "date": "2026-11-04T22:39:10+00:00"
+     "date": null
     },
     {
      "id": "gfsB-hlMKSQ",
      "title": "The ONLY Grok Bot Trading Tutorial You Need 2026 - How To Use Grok Bot For Beginners",
      "dur": 848,
-     "date": "2026-10-27T18:53:17+00:00"
+     "date": null
     }
    ]
   },
@@ -1317,6 +1317,12 @@
    "id": "UC4yFUEcq0SGs3_BHxF9q5Ww",
    "videos": [
     {
+     "id": "Z2bznofKVO4",
+     "title": "I Made a Short Drama Using Only Claude - Full Tutorial",
+     "dur": 741,
+     "date": "2026-11-24T18:35:32+00:00"
+    },
+    {
      "id": "DFCX9EcNSag",
      "title": "Seedance 2.5 4k Costs are Worse than I Ever Imagined",
      "dur": 641,
@@ -1345,12 +1351,6 @@
      "title": "I Challenged Claude Fable 5.2 to Make a Better Film Than Me",
      "dur": 885,
      "date": "2026-11-16T18:49:25+00:00"
-    },
-    {
-     "id": "P3lbvUE918Q",
-     "title": "I Tested Seedream 5.5 so You Don't Have to...",
-     "dur": 747,
-     "date": "2026-11-13T13:08:04+00:00"
     }
    ]
   },
@@ -1443,6 +1443,12 @@
    "id": "UCtEj8sqnI-ClWqY_a-CtEoA",
    "videos": [
     {
+     "id": "yXJV7TKXbPM",
+     "title": "Bruciare 2.000 miliardi per UN’AMANTE SPIA CINESE - Lo scandalo e la storia di NVIDIA",
+     "dur": 1643,
+     "date": "2026-11-24T17:43:52+00:00"
+    },
+    {
      "id": "J7ltqjv8vNQ",
      "title": "IL CASO che HA SCONVOLTO IL MONDO - Lindsay Clancy - COLPEVOLE o INFERMA?",
      "dur": 1545,
@@ -1471,12 +1477,6 @@
      "title": "Sono entrati in galleria VIVI. NON SI È SALVATO NESSUNO - Il DISASTRO ferroviario Italiano",
      "dur": 1006,
      "date": "2026-10-27T17:00:11+00:00"
-    },
-    {
-     "id": "k00FVHyN8PY",
-     "title": "DOPO LA TRAGEDIA, LA FORMULA 1 - È GIUSTO correre in Ruanda?",
-     "dur": 1893,
-     "date": "2026-10-23T15:49:39+00:00"
     }
    ]
   },
@@ -1484,6 +1484,12 @@
    "name": "overVolt",
    "id": "UCw6ekhAtFahKr7gImCIoYwg",
    "videos": [
+    {
+     "id": "-RWN4kkQjRk",
+     "title": "QUESTA cambia COMPLETAMENTE la stampa a resina 🤯",
+     "dur": 2667,
+     "date": "2026-11-24T16:00:26+00:00"
+    },
     {
      "id": "3Hf4o-lEttU",
      "title": "QUESTO DRONE NON SI RICARICA MAI 🤯 - DJI Dock 4",
@@ -1513,12 +1519,6 @@
      "title": "2.500€ DI LASER E NON È PRONTO - Bambu Lab R1",
      "dur": 2112,
      "date": "2026-11-09T16:15:02+00:00"
-    },
-    {
-     "id": "P2nAzcLhGis",
-     "title": "HO HACKERATO 5 LAMPADE IKEA E ORA HO UN DISPLAY GIGANTE 🤯",
-     "dur": 1244,
-     "date": "2026-11-05T16:52:38+00:00"
     }
    ]
   },
@@ -1526,6 +1526,12 @@
    "name": "MindTheChart",
    "id": "UChkzwqfPPTPnuSef26idqcg",
    "videos": [
+    {
+     "id": "h1FZdOIAXkw",
+     "title": "😱LA FOLLIA DI QUESTI MERCATI ! IL RIMBALZO🚨",
+     "dur": 528,
+     "date": "2026-11-24T12:20:23+00:00"
+    },
     {
      "id": "Zfw13H0Tbgg",
      "title": "🚨Il Mercato Che Ci Ha Distrutto i Portafogli🚨",
@@ -1555,12 +1561,6 @@
      "title": "🚨☠️COLLASSO MERCATI - non si vedeva da marzo 2020😱",
      "dur": 442,
      "date": "2026-11-06T12:03:32+00:00"
-    },
-    {
-     "id": "jMLLN1AhUAM",
-     "title": "TRUMP SOTTO SHOCK, WALL STREET VOLA: COSA SUCCEDE ORA?🚨☠️😱",
-     "dur": 351,
-     "date": "2026-11-05T12:08:16+00:00"
     }
    ]
   },
@@ -1779,6 +1779,12 @@
    "id": "UC8oBIE88TrCD1b-gnVqXzgw",
    "videos": [
     {
+     "id": "D6X6ucMf4jE",
+     "title": "L'AI Ha Appena Risolto Uno dei Più GRANDI Misteri del Mondo?",
+     "dur": 1450,
+     "date": "2026-11-24T16:30:14+00:00"
+    },
+    {
      "id": "qPBhWyy8u7o",
      "title": "Come il #1 al Mondo Usa DAVVERO I'AI (Senza Codice)",
      "dur": 548,
@@ -1807,12 +1813,6 @@
      "title": "Dammi 13 Minuti e ti Insegno Gemini da Zero",
      "dur": 796,
      "date": "2026-11-12T16:30:17+00:00"
-    },
-    {
-     "id": "rtsu_XbSlRw",
-     "title": "Che DIAVOLO Sta Succedendo Dentro OpenAI?",
-     "dur": 1240,
-     "date": "2026-11-09T16:30:25+00:00"
     }
    ]
   },
@@ -1989,6 +1989,12 @@
    "id": "UC1e1Xt2nsUy9lqP_R7ES5yA",
    "videos": [
     {
+     "id": "B7CMvvKGqAg",
+     "title": "Claude Si È Rifiutato Di Rispondermi... Così Ho Provato Modelli AI SENZA CENSURE",
+     "dur": 1188,
+     "date": "2026-11-24T15:56:04+00:00"
+    },
+    {
      "id": "5OkxW545QOY",
      "title": "Abbiamo Costruito un Company Brain per 300 PERSONE (Ecco Come)",
      "dur": 924,
@@ -2017,12 +2023,6 @@
      "title": "Ho Formato sull'AI un'Azienda da 1 MILIARDO (in 2 Giorni)",
      "dur": 1597,
      "date": "2026-10-22T11:22:18+00:00"
-    },
-    {
-     "id": "-aL_0NgNXOY",
-     "title": "Anthropic ha RIVELATO un Manuale per Costruire un'Azienda con l'AI",
-     "dur": 1552,
-     "date": "2026-10-17T13:25:42+00:00"
     }
    ]
   },
@@ -2073,6 +2073,12 @@
    "id": "UCbMlkb79E12CwveGAtdFj-A",
    "videos": [
     {
+     "id": "UADi4NXqa9g",
+     "title": "GLM 5.4 porta il Loop Transformer a 750 miliardi di parametri!",
+     "dur": 1119,
+     "date": "2026-11-24T15:52:21+00:00"
+    },
+    {
      "id": "9DmYD_5v7VA",
      "title": "Inkling 2 Mini, il looping funziona finalmente!",
      "dur": 1782,
@@ -2101,12 +2107,6 @@
      "title": "Ma cosa ha combinato Anthropic?! (Mythos/Fable 5.2)",
      "dur": 1291,
      "date": "2026-11-10T17:44:04+00:00"
-    },
-    {
-     "id": "-M_D7RBvkZ4",
-     "title": "Non implementare un'LLM Wiki prima di aver visto questo video",
-     "dur": 1460,
-     "date": "2026-11-09T16:00:39+00:00"
     }
    ]
   },
