@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:20:45+00:00",
+ "updated": "2026-11-28T00:02:54+00:00",
  "playlists": [
   {
    "title": "Esercizi fissi",
@@ -771,6 +771,12 @@
    "id": "UCRCWJCFoZUvkkWzIqzfBy6g",
    "videos": [
     {
+     "id": "VKBN8_m4Bnc",
+     "title": "Lo Yemen che i telegiornali non raccontano",
+     "dur": 2844,
+     "date": "2026-11-27T11:33:01+00:00"
+    },
+    {
      "id": "mhJ-F4PmUA0",
      "title": "Se si blocca Bologna, si blocca l’Italia. Ecco perché",
      "dur": 1016,
@@ -799,12 +805,6 @@
      "title": "Si stava davvero meglio quando si stava peggio?",
      "dur": 1295,
      "date": "2026-11-08T11:24:59+00:00"
-    },
-    {
-     "id": "2yiZw7QJSOg",
-     "title": "La disfatta di Trump alle Midterm: cosa succede ora negli USA?",
-     "dur": 823,
-     "date": "2026-11-04T18:47:26+00:00"
     }
    ]
   },
@@ -812,6 +812,12 @@
    "name": "Marco Montemagno",
    "id": "UCNg4RDHGls-HpbV10kWPlsw",
    "videos": [
+    {
+     "id": "vo74dcjtPLE",
+     "title": "Come Costruire DAVVERO Un'App Con L'AI (Passo Passo)",
+     "dur": 2063,
+     "date": "2026-11-27T12:30:56+00:00"
+    },
     {
      "id": "uRMj7eRhUQA",
      "title": "Nvidia Senza Di Lui È Durata 11 Giorni",
@@ -841,12 +847,6 @@
      "title": "Il Vero Motivo Per Cui Nessuno Ti Paga",
      "dur": 2767,
      "date": "2026-11-15T12:10:10+00:00"
-    },
-    {
-     "id": "1mmg--lvmoQ",
-     "title": "Parliamo Dello Scandalo Di Nvidia",
-     "dur": 677,
-     "date": "2026-11-13T12:30:09+00:00"
     }
    ]
   },
@@ -981,6 +981,12 @@
    "id": "UCvza9EqE6pp2_4iDE-buscg",
    "videos": [
     {
+     "id": "d_MXgRArU4I",
+     "title": "Australia's Unemployment Crisis Has Finally Started (Is a Recession Inevitable?)",
+     "dur": 710,
+     "date": "2026-11-27T21:00:11+00:00"
+    },
+    {
      "id": "47hjucb2r1M",
      "title": "You Are Paying Australias New Property Tax (here's how you don't)",
      "dur": 723,
@@ -1009,12 +1015,6 @@
      "title": "RBA Raises Rates to 4.85%: Is 2008 About to Repeat?",
      "dur": 787,
      "date": "2026-11-06T00:00:26+00:00"
-    },
-    {
-     "id": "VRpxMVN_DEM",
-     "title": "2027 Australian Housing Crash: What The 4.85% Hike Really Means",
-     "dur": 769,
-     "date": "2026-11-04T00:00:33+00:00"
     }
    ]
   },
@@ -1149,6 +1149,12 @@
    "id": "UC-PQKtrPhk3JXyjUleBLgQQ",
    "videos": [
     {
+     "id": "ONLETzW3O3o",
+     "title": "My Plan to Make $10K/Month With GTA 6 + AI",
+     "dur": 1565,
+     "date": "2026-11-27T23:19:05+00:00"
+    },
+    {
      "id": "cl_kxZi5gBk",
      "title": "Claude Just Dropped 9 INSANE New Features (Master all in 19 mins)",
      "dur": 1141,
@@ -1177,12 +1183,6 @@
      "title": "I Don’t Trust Claude Anymore. Use This Instead.",
      "dur": 620,
      "date": "2026-11-20T17:45:19+00:00"
-    },
-    {
-     "id": "JnfUZ8KFIN0",
-     "title": "My Plan to Print $11,590/mo Clipping GTA 6 w/ AI (Full Course)",
-     "dur": 1762,
-     "date": "2026-11-17T15:45:29+00:00"
     }
    ]
   },
@@ -1317,6 +1317,12 @@
    "id": "UC4yFUEcq0SGs3_BHxF9q5Ww",
    "videos": [
     {
+     "id": "vnqzyzo9jak",
+     "title": "I Tried The New ElevenLabs so You Don't Have to...",
+     "dur": 509,
+     "date": "2026-11-27T18:54:37+00:00"
+    },
+    {
      "id": "lOeeEeTlGQE",
      "title": "I Tested MAGI-2 so You Don't Have to...",
      "dur": 931,
@@ -1345,12 +1351,6 @@
      "title": "I Tried Higgsfield's Short Drama Studio so You Don't Have to...",
      "dur": 684,
      "date": "2026-11-19T18:20:02+00:00"
-    },
-    {
-     "id": "JLG2wNGNwP0",
-     "title": "GPT 6.2 Astra - Will This Kill Seedance? CRAZY First Look",
-     "dur": 480,
-     "date": "2026-11-18T16:45:05+00:00"
     }
    ]
   },
@@ -1401,6 +1401,12 @@
    "id": "UCBahpZUV9wGy0ZdiVL2rqCA",
    "videos": [
     {
+     "id": "m5k17F3n7D0",
+     "title": "Perché gli STATI UNITI devono IMPEDIRE il FALLIMENTO di INTEL",
+     "dur": 1340,
+     "date": "2026-11-27T17:00:23+00:00"
+    },
+    {
      "id": "ICIO4r7odh4",
      "title": "SPAGNA: perché il piano ECONOMICO di SANCHEZ non REGGE PIÙ?",
      "dur": 932,
@@ -1429,12 +1435,6 @@
      "title": "Come MICHAEL JACKSON ha COMPRATO i BEATLES (e battuto WALL STREET)",
      "dur": 1121,
      "date": "2026-10-27T17:00:14+00:00"
-    },
-    {
-     "id": "D82UeN8mX_U",
-     "title": "La FOLLE ASCESA di CLAUDIO LOTITO: l’imprenditore più controverso D’ITALIA",
-     "dur": 1548,
-     "date": "2026-10-23T16:00:14+00:00"
     }
    ]
   },
@@ -1485,6 +1485,12 @@
    "id": "UCw6ekhAtFahKr7gImCIoYwg",
    "videos": [
     {
+     "id": "ONStGHr3NBY",
+     "title": "HO MIGLIORATO IL MIO UFFICIO TECH 🤯 Unboxing Black Friday",
+     "dur": 1924,
+     "date": "2026-11-27T16:01:44+00:00"
+    },
+    {
      "id": "-RWN4kkQjRk",
      "title": "QUESTA cambia COMPLETAMENTE la stampa a resina 🤯",
      "dur": 2667,
@@ -1513,12 +1519,6 @@
      "title": "UNBOXING DOMOTICA e gadget ASSURDI da Aliexpress 🤯",
      "dur": 1231,
      "date": "2026-11-11T09:31:19+00:00"
-    },
-    {
-     "id": "qs9WWtB0id0",
-     "title": "2.500€ DI LASER E NON È PRONTO - Bambu Lab R1",
-     "dur": 2112,
-     "date": "2026-11-09T16:15:02+00:00"
     }
    ]
   },
@@ -1737,6 +1737,12 @@
    "id": "UCkkP8HpQG0LuMzGUMJzLEMw",
    "videos": [
     {
+     "id": "X44DZbXAZv4",
+     "title": "Bitcoin, attenzione: la figura che inganna i trader",
+     "dur": 978,
+     "date": "2026-11-27T17:39:26+00:00"
+    },
+    {
      "id": "xdCjtQM3yYM",
      "title": "Bitcoin e Nasdaq: si soffre fino a febbraio?",
      "dur": 1370,
@@ -1765,12 +1771,6 @@
      "title": "Bitcoin, Fear & Greed a 13: siamo vicini al fondo?",
      "dur": 1235,
      "date": "2026-11-16T17:15:05+00:00"
-    },
-    {
-     "id": "5bIlceuNNuI",
-     "title": "Bitcoin: crash fino ai minimi di giugno?",
-     "dur": 1185,
-     "date": "2026-11-13T17:16:31+00:00"
     }
    ]
   },
@@ -1863,6 +1863,12 @@
    "id": "UCngfIs8G9JHVTeyXPEyb_tQ",
    "videos": [
     {
+     "id": "3uMZnP_HhHc",
+     "title": "Dopo il CROLLO: quali Opportunità con l'AI di Quantaste",
+     "dur": 3698,
+     "date": "2026-11-27T16:37:17+00:00"
+    },
+    {
      "id": "wRNskCaMmpA",
      "title": "Il Mercato Riduce gli ECCESSI: che segnali guardare con @massimorea-quant-analyst",
      "dur": 3015,
@@ -1891,12 +1897,6 @@
      "title": "Perché le azioni scendono anche con utili in crescita",
      "dur": 1743,
      "date": "2026-11-09T13:30:59+00:00"
-    },
-    {
-     "id": "_Z4f0F94aWU",
-     "title": "Il panico sulla AI fa crollare i mercati: cosa fai col tuo PAC",
-     "dur": 2914,
-     "date": "2026-11-06T13:59:05+00:00"
     }
    ]
   },
@@ -1904,6 +1904,12 @@
    "name": "AfterSide Crypto",
    "id": "UCyeE5RmrX5foJY_wGX-YPqA",
    "videos": [
+    {
+     "id": "PeAJxo-KegI",
+     "title": "🔥 BITCOIN / ALTCOINS.. E' ARRIVATO IL MOMENTO CHE ASPETTAVI",
+     "dur": 726,
+     "date": "2026-11-27T09:23:43+00:00"
+    },
     {
      "id": "KYzyLr8vplY",
      "title": "🚨 NON HA MAI SBAGLIATO IL BOTTOM.. ATTENZIONE BITCOIN ALTCOINS",
@@ -1933,12 +1939,6 @@
      "title": "🚨 ASSURDO: E' UNA SIMULAZIONE ... Bitcoin / Altcoins: COSA SUCCEDERA'",
      "dur": 736,
      "date": "2026-11-18T16:33:54+00:00"
-    },
-    {
-     "id": "sD8mSR2rPh4",
-     "title": "🚨 E' UNA TRAPPOLA.. IL PATTERN E' IDENTICO ATTENTO A BITCOIN / ALTCOINS",
-     "dur": 602,
-     "date": "2026-11-15T08:44:20+00:00"
     }
    ]
   },
@@ -2115,27 +2115,33 @@
    "id": "UCqeIh2DOh4w4iXAGPFtb2Jw",
    "videos": [
     {
+     "id": "VcZR0cbjrKQ",
+     "title": "HO VISTO LA DOMANDA NELLO SGUARDO DI MIA MADRE (intervista 020)",
+     "dur": 0,
+     "date": "2026-11-27T09:37:23+00:00"
+    },
+    {
      "id": "04ox8vJ5pyM",
      "title": "Dario Fabbri: il Nuovo Ordine mondiale in 6 Mappe",
-     "dur": 4961,
+     "dur": 0,
      "date": "2026-10-25T18:30:07+00:00"
     },
     {
      "id": "VIUDsHuX07A",
      "title": "Gratteri: Il futuro del narcotraffico è già qui",
-     "dur": 3327,
+     "dur": 0,
      "date": "2026-10-04T18:30:11+00:00"
     },
     {
      "id": "uBQwSdRi95w",
      "title": "Astrofisico Spiega Il Destino dell'Universo",
-     "dur": 5634,
+     "dur": 0,
      "date": "2026-09-06T18:30:06+00:00"
     },
     {
      "id": "ZrZgAfXp6Tk",
      "title": "Dario Fabbri: Senza questo non capisci le Nazioni",
-     "dur": 5321,
+     "dur": 0,
      "date": "2026-08-09T18:00:06+00:00"
     },
     {
@@ -2143,12 +2149,6 @@
      "title": "Ghisellini spiega il più grande Errore di Einstein",
      "dur": 2939,
      "date": "2026-07-12T19:30:06+00:00"
-    },
-    {
-     "id": "Kn-ca_OBAEQ",
-     "title": "Stefano Mancuso: Le Città ci stanno Uccidendo",
-     "dur": 4848,
-     "date": "2026-06-28T18:00:07+00:00"
     }
    ]
   },
@@ -2156,6 +2156,12 @@
    "name": "Grace Leung",
    "id": "UCrB7UFnkosBjAhOg3a9NdWw",
    "videos": [
+    {
+     "id": "KUD7SuzljCQ",
+     "title": "STOP Wasting Money on More AI Marketing Tools. Do THIS Instead",
+     "dur": 1244,
+     "date": "2026-11-27T13:00:27+00:00"
+    },
     {
      "id": "71w6Le62wk0",
      "title": "How I'd Use Claude If I Started Today",
@@ -2185,12 +2191,6 @@
      "title": "How to Get AI to Recommend Your Brand in 16 minutes | AEO Playbook",
      "dur": 995,
      "date": "2026-08-26T13:00:30+00:00"
-    },
-    {
-     "id": "aF57uCHuXgY",
-     "title": "Master Claude Design in 17 Minutes for Marketing",
-     "dur": 1003,
-     "date": "2026-07-31T12:00:20+00:00"
     }
    ]
   },
